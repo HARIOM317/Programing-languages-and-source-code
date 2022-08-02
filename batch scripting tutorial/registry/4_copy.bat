@@ -1,0 +1,3 @@
+@echo off
+REG COPY HKEY_CURRENT_USER\Console HKEY_CURRENT_USER\Console\TestData
+REG QUERY HKEY_CURRENT_USER\Console\TestData

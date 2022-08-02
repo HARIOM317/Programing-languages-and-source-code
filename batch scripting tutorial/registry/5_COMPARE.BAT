@@ -1,0 +1,3 @@
+@echo off
+
+REG COMPARE HKEY_CURRENT_USER\Console HKEY_CURRENT_USER\Console\TestData

@@ -1,0 +1,17 @@
+__________ The Form of Our new Customer __________
+Name :  Hariom, 
+Mobile number :  9302765588,
+Gender :  mail,
+Emergency Number :  1000-0001-0101,
+Payment Method :  cash,
+Food service :  1
+
+
+__________ The Form of Our new Customer __________
+Name :  Abhishek, 
+Mobile number :  9876024351,
+Gender :  mail,
+Emergency Number :  9888880026,
+Payment Method :  PayTm,
+Food service :  0
+

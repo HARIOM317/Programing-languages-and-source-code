@@ -1,0 +1,55 @@
+Hariom Singh Rajput :   Drank water at :    2022-02-11 20:49:13.701003
+Hariom Singh Rajput :   Done the eyes exercise at :    2022-02-11 20:49:19.866182
+Hariom Singh Rajput :   Complete the physical exercises at :    2022-02-11 20:49:29.473134
+Hariom Singh Rajput :   Drank water at :    2022-02-11 20:50:22.405307
+Hariom Singh Rajput :   Drank water at :    2022-02-11 20:58:22.867441
+HSR :   Drank water at :    2022-02-11 21:03:40.201945
+hariom :   Drank water at :    2022-02-11 21:11:18.254609
+h :   Drank water at :    2022-02-11 21:18:23.840312
+h :   Done the eyes exercise at :    2022-02-11 21:18:29.820233
+h :   Complete the physical exercises at :    2022-02-11 21:18:34.274182
+Hariom :   Drank water at :    2022-02-11 21:29:51.352759
+Hariom :   Done the eyes exercise at :    2022-02-11 21:30:01.218530
+Hariom :   Complete the physical exercises at :    2022-02-11 21:30:32.901672
+hariom :   Drank water at :    2022-02-11 21:41:10.065895
+hariom :   Done the eyes exercise at :    2022-02-11 21:41:20.414762
+Hariom :   Drank water at :    2022-02-11 21:42:34.410910
+Hariom :   Done the eyes exercise at :    2022-02-11 21:42:44.031651
+Hariom :   Complete the physical exercises at :    2022-02-11 21:42:58.072717
+Hariom :   Drank water at :    2022-02-11 21:43:18.469879
+hariom :   Drank water at :    2022-02-11 21:47:57.724455
+Hariom :   Drank water at :    2022-02-11 21:56:22.119608
+Hariom :   Done the eyes exercise at :    2022-02-11 21:56:41.018775
+Hariom :   Complete the physical exercises at :    2022-02-11 21:56:58.046901
+Hariom :   Drank water at :    2022-02-11 21:57:17.185879
+Hariom :   Done the eyes exercise at :    2022-02-11 21:57:29.390196
+
+Hariom Singh Rajput :   Drank water at :    2022-02-12 09:21:40.420787
+Hariom Singh Rajput :   Done the eyes exercise at :    2022-02-12 09:21:52.829413
+Hariom Singh Rajput :   Complete the physical exercises at :    2022-02-12 09:22:10.143629
+Hariom Singh Rajput :   Drank water at :    2022-02-12 09:22:32.843145
+hariom :   Done the eyes exercise at :    2022-02-12 09:23:49.472104
+hariom :   Complete the physical exercises at :    2022-02-12 09:24:13.192586
+hariom :   Drank water at :    2022-02-12 09:24:28.645466
+hariom :   Done the eyes exercise at :    2022-02-12 09:24:36.722985
+hariom :   Complete the physical exercises at :    2022-02-12 09:24:44.257910
+hariom :   Drank water at :    2022-02-12 09:24:53.647869
+
+========================Start Now===========================
+
+hariom :   Complete the physical exercises at :    2022-02-12 09:29:17.905977
+hariom :   Drank water at :    2022-02-12 09:29:28.843829
+Hariom :   Complete the physical exercises at :    2022-02-12 10:40:03.349632
+hariom :   Drank water at :    2022-02-17 21:52:45.497311
+hariom :   Done the eyes exercise at :    2022-02-17 21:52:52.221065
+hariom :   Drank water at :    2022-02-17 21:52:59.167689
+hariom :   Complete the physical exercises at :    2022-02-17 21:53:03.618290
+hariom :   Drank water at :    2022-02-17 21:53:12.763975
+hariom :   Done the eyes exercise at :    2022-02-17 21:53:17.340388
+hariom :   Drank water at :    2022-02-17 21:54:35.649288
+hariom :   Done the eyes exercise at :    2022-02-17 21:55:05.114085
+hariom :   Drank water at :    2022-02-17 21:55:13.271146
+hariom :   Complete the physical exercises at :    2022-02-17 21:55:36.044991
+hariom :   Drank water at :    2022-02-17 21:55:46.793997
+hsr :   Drank water at :    2022-03-09 15:35:12.658234
+hsr :   Done the eyes exercise at :    2022-03-09 15:35:16.161551

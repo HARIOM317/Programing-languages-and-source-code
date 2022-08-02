@@ -1,0 +1,13 @@
+ Volume in drive A is document drive
+ Volume Serial Number is 285F-8DF0
+
+ Directory of A:\batch scripting tutorial
+
+01/03/2022  08:51 AM    <DIR>          .
+01/03/2022  08:38 AM    <DIR>          .dist
+01/03/2022  08:50 AM               176 first.bat
+01/02/2022  01:20 PM                57 move_file
+01/03/2022  08:51 AM                 0 my_file_1.txt
+01/03/2022  08:44 AM                98 third.bat
+               4 File(s)            331 bytes
+               2 Dir(s)  52,650,168,320 bytes free

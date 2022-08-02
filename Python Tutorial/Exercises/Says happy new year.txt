@@ -1,0 +1,37 @@
+English	Happy New Year!
+Hindi	Naye varsh ki subhkamnaye
+Afrikaans	Voorspoedige nuwe jaar
+Arabic	Kul 'am wa antum bikhair
+Basque	Urte Berri on
+Bengali	Shuvo noboborsho
+Chinese (Cantonese)	Sun nien fai lok
+Chinese (Mandarin)	Xin nian yu kuai
+Czech	Stastny Novy Rok
+Danish	Godt Nytr
+Dutch	Gelukkig nieuwjaar
+Esperanto	Bonan Novjaron
+Finnish	Onnellista uutta vuotta
+French	Bonne anne
+German	Ein gluckliches neues Jahr
+Greek	Eutychismenos o kainourgios chronos
+Hawaiian	Hauoli Makahiki hou
+Hebrew	Shana Tova
+Hungarian	Boldog uj evet
+Indonesian (Bahasa)	Selamat Tahun Baru
+Italian	Felice Anno Nuovo or Buon anno
+Japanese	Akemashite Omedetou Gozaimasu
+Korean	Sehe Bokmanee Bateuseyo
+Laotian (Hmong)	Nyob Zoo Xyoo Tshiab
+Latin	Felix sit annus novus
+Nigerian (Hausa)	Barka da sabuwar shekara
+Norwegian	Godt Nytt r
+Philippines (Tagalog)	Manigong Bagong Taon
+Polish	Szczesliwego Nowego Roku
+Romanian	La Multi Ani si Un An Nou Fericit
+Samoan	Ia manuia le Tausaga Fou
+Spanish	Feliz ao nuevo
+Swahili	Heri za Mwaka Mpya
+Swedish	Gott Nytt r
+Thai	Sawatdee Pi Mai
+Vietnamese	Chuc mung nam moi
+Welsh	Blwyddyn Newydd Dda

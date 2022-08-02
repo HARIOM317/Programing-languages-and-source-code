@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Package-Hariom
+Version: 1.0.3
+Summary: This is a python package spatially for car show rooms.
+Home-page: UNKNOWN
+Author: hariom Singh Rajput
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: Licence.txt
+
+This package is now available for only Audi, BMW and Nissan cars.
+

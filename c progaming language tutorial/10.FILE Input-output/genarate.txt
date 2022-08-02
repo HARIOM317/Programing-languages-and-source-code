@@ -1,0 +1,3 @@
+the value of num is: 78 
+Thanks for using fprintf hari
+Thank you so much 

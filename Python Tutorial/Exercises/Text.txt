@@ -1,0 +1,2773 @@
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+              
+CMD Command s
+ 
+S .n o .
+ 
+Na me
+ 
+De sc r ip tio n  
+ 
+1
+ 
+d ir
+ 
+It  t e lls wh ic h f ile s an d  fo ld e rs a re  p re sen t at 
+c u rr en t lo c ati o n o fy o ur d ir ec tory .
+ 
+2
+ 
+d ir  /a d
+ 
+It  t e lls wh ic h f o ld e rs (on ly ) ar e p re se n ta tc u rren t 
+lo c a tio n o f yo u r 
+d ire c tory .
+ 
+3
+ 
+d ir  /a
+-
+d
+ 
+It  t e lls wh ic h f ile s (on ly) a re p rese n t a tc u rren t 
+lo c a tio n o f yo u r d ire c tory .
+ 
+4
+ 
+c ls
+ 
+Cle a r y ou r te rmin a lsc re e n .
+ 
+5
+ 
+md o r  mk d ir  + fold er_ n a me
+ 
+Cre a te  a n e w f o ld e r.
+ 
+6
+ 
+><5 :C 7@ =5 6C7@ =56C @ =56C 
+ 
+Cre a te  mul tip le fo lder s in 
+d ire c to ry .
+ 
+7
+ 
+r mdi r  fold er _ na me
+ 
+De le te  a fo ld e r.
+ 
+ 
+8
+ 
+C >5: C 6C7@ =5 6C 
+ 
+De le te  mul tip le fo lder s wit h  o n ce .
+ 
+9
+ 
+x c o py  f ile _ na me  wit h e x tens ion 
+ 7@ =56C? 2 >6 
+ 
+ 
+ex.
+-
+ 
+I 4 @A J >J
+5 @ 4 F >6? ED 
+ 
+Co p y  f il e a nd  pas te in a f o lder .
+ 
+ 
+Ex . 
+
+ 
+c op y  
+h sr .tx t file  and  pas te in  my do cu me n ts  
+fo ld er.
+ 
+10
+ 
+x c o py  * .e x te n sio n _n ame  
+ 7@ =56C? 2 >6 
+ 
+ 
+Ex .
+-
+I 4 @ AJ I E6 I 
+ 
+Co p y  a ll fi les with  same e x te n sio n s.
+ 
+ 
+ 
+He re  a ll te x t f il es o f d ire c to ry  will  be co p ing in 
+ E6 I E := 6 @=5 6 C
+ 
+11
+ 
+d e l 
+file _n a me .ext en si on
+ 
+e x . de l Har io m.t x t 
+ 
+De le te  a fi le.
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+12
+ 
+d e l *.e x te n sio n  
+ 
+ 7@ =56C? 2 >6 
+ 
+ex.
+-
+ 
+5 6 I E6 I E :=6
+ 
+De le te  all fi le s of sa me e x tens ion a va ila b le in  
+fo ld er.
+ 
+ 
+˜6 C6 6 =6 E62 ==EI7: =6 D6 I7: =6 @ =5 6 
+ 
+13
+ 
+mo v e  f ile _ na me .ext e nsi o n  
+ =@
+42 E: @? 
+ 
+Mo v e  and  pas te.
+ 
+Ex .
+-
+ 
+>@ G 6 I 4 
+\
+u se rs
+\
+h a rio m
+\
+5 6 D< 
+ 
+14
+ 
+>@ G 66 I E6 ? D:@ ? 42 E: @ ?
+ 
+ex.
+-
+        
+mo ve
+ 
+* .p p tx
+  
+  
+ A @ H6 C A@ 
+ 
+Cu t a ll  . pp tx fi le o fa  f old e r an d p a ste  in  s e le c te d  
+fo ld er/ loca tio n .
+ 
+15
+ 
+r e n  file /fo lder _n a me
+ 
+n e w_ n a me
+ 
+Re n a me  f il e o r fo lder .
+ 
+16
+ 
+ta sk list  
+ 
+S h o w a ll b ac k g ro u nd  run n in g  ta sk s.
+ 
+17
+ 
+ta sk kil l /p id  tas k_ id
+ 
+Ex .
+-
+ 
+ta skki ll /p id 3 20 24
+ 
+Kil l
+\
+c lo se  a p a rt ic u la r ta sk  whi ch  r un n in g  id  you  
+h a v e e n te red .
+ 
+18
+ 
+c a lc
+ 
+Op e n  c alc u la to r.
+ 
+19
+ 
+n e t sta r t
+ 
+S h o w a ll b ac k g ro u nd  
+ru n n in g  ser v ic e s.
+ 
+20
+ 
+n e t sto p          
+ 
+ D6 CG :4 6 ? 2 >6 
+ 
+S to p a  bac kg rou n d se rvic e  .
+ 
+21
+ 
+? 6 DE2 C E D6 C G :4 6 2>6 
+ 
+S ta rt a  s erv ic e .
+ 
+22
+ 
+d r iver q ue r y
+ 
+Op e n  l is t o fa ll d ri ve rs in st a lle d in y o u r c o mp ute r.
+ 
+23
+ 
+n e ts h a dv fi re wa ll  set  all st ate  off
+ 
+Off  
+fi re wa ll p ro te c tio n o f y ou r co mp u ter.
+ 
+24
+ 
+n e ts h a dv fi re wa ll  set  all st ate  on
+ 
+On  f ir e wa ll  pro te c tio n o f y ou r co mp u ter.
+ 
+25
+ 
+Ap p li c a tio n_ n a me
+ 
+Ex .
+-
+ 
+n o te p ad
+ 
+T y p e a pp li ca ti on  name fo r op e n in g a  s oft wa re .
+ 
+WMIC Co mma n d s 
+ 
+1
+ 
+wmic  c p u
+ 
+All  i n fo rma tio n a b ou t 
+mic ro
+-
+p ro c ess o r.
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+2
+ 
+wmic  b io s ge t se r ialnumbe r
+ 
+Fo r g e tt in g  ser ia l nu mb e r
+\
+v ers ion o f BIOS.
+ 
+3
+ 
+wmic  c o mpu ters y ste m g e t 
+to ta lp h ysi c alme mo r y
+ 
+S h o w p hy si ca l me mo ry (RAM) in  b y te s.
+ 
+4
+ 
+wmic  n ic  g et ma ca d d re ss
+ 
+S h o w h ard wa re a d dre ss o f ne twor k c a rd .
+ 
+5
+ 
+wmic  
+p a r ti tio n g e t n ame ,s iz e ,ty pe
+ 
+Ge t n a me , size  & t yp e o f d isk  par ti tio n .
+ 
+6
+ 
+wmic  p r o c ess  l ist  bri e f
+ 
+S h o w a ll ru nn ing task s/se rv ic e s.
+ 
+7
+ 
+wmic  p r o c ess  whe re  
+? 2 >6 D@7E H2 C 6 ? 2 >6 I E6 ? D:@ ?
+c a ll  ter mina te
+ 
+Fo r c lo sin g a  s oft wa re .
+ 
+Ex .
+-
+ 
+H>:4 C@ 4 6DD 2 >6 6
+A 2 56 I6 2 =
+te rmin a te
+ 
+ 
+8
+ 
+wmic  p r o d uc t ge t name ,v e r sio n
+ 
+S h o w a ll so ft wa re /p ro du c t of Mic roso ft, g oo g le , 
+a n d a d ob e .
+ 
+CM D s o rt  c o mma n ds 
+ 
+1
+ 
+v o l dr ive_ late r :
+ 
+ex.
+-
+ 
+v o l D:
+ 
+S h o w n a me a n d se ria ln u mb e r of d riv e.
+ 
+2
+ 
+win v e r  
+ 
+S h o w win d o ws ve rs io n a n d  
+u p da te .
+ 
+3
+ 
+c h k d sk
+ 
+S h o w a ll in fo rma ti on  by sc an n in g  (da ta , sp a ce, 
+b a d /h a rm f ile s etc . ) o fh a rd d ri ve .
+ 
+4
+ 
+Ctr l + c
+ 
+S k ip
+/st o p
+ 
+c o mma n d .
+ 
+5
+ 
+Dr iv e  c ha ra c ter:
+ 
+Ch a n g e d ri ve .
+ 
+Ex .
+-
+ 
+D:,  a :, e tc .
+ 
+6
+ 
+g e tma c
+ 
+Fo r k n o win g mac  add re ss .
+ 
+7
+ 
+sy st e minfo
+ 
+S h o w a ll sy ste m 
+in format io n.
+ 
+8
+ 
+d is k pa r t en te r >
+ 
+ @E@?D6 CG :4 6 @ @A 
+ "'˘ ) +
+ 
+1.
+ 
+S h o w d isk  vol u me  in  GB ,  s ta tu s a nd  s ize .
+ 
+2.
+ 
+S e lect ing a d is k.
+ 
+3.
+ 
+Fu ll  d e ta il  of a d is k.
+ 
+4.
+ 
+Ex it  f ro m l oo p .
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+1.
+ 
+li st  d isk
+ 
+2.
+ 
+se le ct d isk  0
+ 
+3.
+ 
+d e ta il d isk
+ 
+4.
+ 
+e x it
+ 
+,D6 4@ >>2 ? 5
+ 
+1
+ 
+n e t use r
+ 
+S h o w a ll  
+u sers  o f y ou r co mp u ter.
+ 
+2
+ 
+n e t use r u ser _ na me  pas swo r d  
+/a d d
+ 
+Cre a te  a n e w u se r.
+ 
+(p a ss wo rd  i s op tio n al) .
+ 
+3
+ 
+n e t use r u ser _ na me  / de l
+ 
+De le te  a u ser.
+ 
+4
+ 
+n e t use r u ser _ na me  / ac ti v e:y es 
+ 
+Ac ti v a te / en a b le  a u ser.
+ 
+5
+ 
+n e t use r u ser _ na me  / ac ti v e:n o 
+ 
+De a c ti va te  / d isa b le  a use r.
+ 
+6
+ 
+n e t use r u ser _ na me  *
+ 
+Re mo v e  p a sswo rd  and  ty p e a  n e w pas swo rd. Th is  
+wil l b e  hel p fu l if we h av e  f org o t o ur u se r pa sswo rd .
+ 
+(we  c a n a ls o s k ip  new p a ss wo rd b y  pre ssin g d ou b le  
+e n te r).
+ 
+7
+ 
+n e t use r u ser _ na me  pas swo r d  
+ 
+Fo r c re ati n g a  new s y ste m p a ss wo rd o fu se r.
+ 
+Fil e  c o mma n d s
+ 
+1
+ 
+ty p e n u l> fil e_ n a me .ex te n sio n
+ 
+Cre a te  a n e w b la n k fi le.
+ 
+2
+ 
+S te p 1
+-
+ 
+co p y c on  f ile na me .t x t
+ 
+S te p 2
+-
+ 
+wr ite  you r d a ta .
+ 
+S te p 3
+-
+ 
+ctr l. +z  a nd  t han  e n te r .
+ 
+Cre a te  a n e w 
+text  f ile  and  wri te y o ur d ata  in  t he  
+te x t fil e .
+ 
+No te  
+
+ 
+wh e n y ou r da ta h a s be e n c o mp le ted wh ic h  
+y o u  wan t t o  wri te  i n y ou r text  f ile  
+yo u c a n p ress c tr l 
++ z  a n d  th an  e nte r fo r co p ing d ata  in  t ex t file .
+ 
+3
+ 
+e c h o ty pe _ da ta
+>fi lena me .t x t
+ 
+ex.
+-
+ 
+e c ho  t his  i s a 
+ec h o c o mman d  
+fo r  pri n tin g d a ta  whi ch  we wr it e  
+in  o ur  t er min a l i n  myec h o .tx t 
+fi le > my ec h o .tx t
+ 
+'C: ? 6 IA @ CEE6 I E 49 @F E6? E6 C>:? 2 
+in  a  te x tfi le .
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+4
+ 
+c ip h er  / e
+ 
+En c ry p ta ll  fil e s o fy o u r
+ 
+se lect e d
+ 
+d ire c to ry
+(fo lder )
+.
+ 
+No te
+-
+ 
+thes e a ll  fil e s wil l h a ve  b ee n e n cry p te d  for 
+o th e r c o mp ute rs/d ev ic es,  b u t a t th e sa me  t imey o u  
+can 
+e a si ly  rea d a ll d a ta i n  you r own c o mp ute r.
+ 
+Fo r e x a mp le  i fy o u sh are  t he se  fil e s t o o th ers  th a n  
+th e se a ll  
+fi les
+ 
+wil l be  e nc ry p t
+  E2 ?9 642 ? 
+o p e n t h ese  fil e s
+.
+ 
+5
+ 
+c ip h er  / d
+ 
+De c ry p ta ll  fil e s o fy o ur d ir ec tory .
+ 
+6
+ 
+c ip h er  / e f ile _ na me .e xte n sio n
+ 
+En c ry p to n ly  o ne  f ile .
+ 
+7
+ 
+c ip h er  / d 
+fi le _ na me .e xte n sio n
+ 
+De c ry p to n ly  o ne  f ile .
+ 
+8
+ 
+a tt r ib  +h  +r +s
+ 
+Hid e  a ll fi le s o fy o ur d ire c tory .
+ 
+He re  +h  = h id e
+ 
+        
+ 2 ? C62 5
+ 
+        
+ 2 ? D9@ H
+ 
+No te  
+
+ 
+if y ou  h id e  all file s o fy o ur d ire c to ry b y  
+u si n g c md  and  if y ou  wan t to  u nh ide a ll 
+fi le s ag a in  
+th a n it  i s po ssi b le  by u sin g  c md o n ly .
+ 
+9
+ 
+a tt r ib  
+-
+h 
+-
+r 
+-
+s
+ 
+Un h id e a ll  f ile s of yo u r dir e cto ry.
+ 
+10
+ 
+a tt r ib  +h  +r +s fi le n ame .e x tens ion
+ 
+Hid e  a  s in g le  f ile  o f y ou r d ire c to ry .
+ 
+11
+ 
+a tt r ib  
+-
+h 
+-
+r 
+-
+s file na me.e x tens ion
+ 
+Un h id e a  s ingl e fi le o fy o u r 
+d ir ec tory .
+ 
+12
+ 
+ty p e fi le_n a me .
+tx t
+ 
+Pri n t a ll d a ta  o f 
+a ny  t ext 
+fi le o n y o ur te rminal .
+ 
+Pe n d ri v e o pe ra tio n s:
+ 
+ 
+1
+ 
+No te  
+-
+ 
+> me an s en ter.
+ 
+S te p 1
+-
+ 
+dis k pa r t >
+ 
+S te p 2
+-
+ 
+list  disk
+ 
+>
+ 
+S te p 3
+-
+ 
+se lect  d isk  1
+ 
+>
+ 
+S te p 4
+-
+ 
+cle an  >
+ 
+ 
+S te p 1
+-
+ 
+ty p e 
+
+d isk pa rt
+
+ 
+fo r g oin g in d is kp a rt s e rv ic e .
+ 
+S te p 2
+-
+ 
+EJ A 6 =: D 5 :D< 7@ 
+see in g a ll d isk s.
+ 
+S te p 3
+-
+  
+EJ A6 D6 =6 4 5 :D< 7@ D6 =64E J@ F 
+p e n dri v e.
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+S te p 5
+-
+ 
+cr ea te p a rti ti on  p r imary   
+>
+ 
+S te p 6
+-
+ 
+se lect  par titi on  1  >
+ 
+S te p 7
+-
+ 
+fo r ma t fs=n tfs q u ick >
+ 
+S te p 8
+-
+ 
+ac tiv e  >
+ 
+S te p 9
+-
+ 
+ass ign >
+ 
+ 
+S te p 1 0
+-
+ 
+e x it >
+ 
+S te p 1 1
+-
+ 
+la be l dr ive
+-
+late r : 
+la b e l_ n a me
+ 
+Ex
+-
+ 
+la b el E: HSR
+ 
+S te p 1 2
+-
+ 
+ 
+S te p 4
+-
+ 
+EJ A 6 4 =6 2 ?4 =6 2? :? 8 ==5 2 E2 7 @F
+p e n dri v e.
+ 
+S te p 5
+-
+ 
+EJ A 6 A2 CE :E :@ ?A C: >2 CJ @ :? 8A 2 CE:E :@ ? 
+p ri ma ry .
+ 
+S te p 6
+-
+ 
+EJ A 6 D6=6 4 E 2 CE:E :@ ? 7@ D6 =6 4E: ?8 
+p a rt itio n 1 .
+ 
+S te p 7
+-
+ 
+EJ A 6 7@C>2E D 7D F :4 < @ C @ C>2J @ F 
+p e n dri v e.
+ 
+S te p 8
+-
+ 
+EJ A 6 24 E: G6 7@ C
+a c tiv e  you r pend riv e  (no w 
+p e n dri v e i s us a ble  aga in ).
+ 
+S te p 9
+-
+ 
+EJ A 6 2 DD: 8 ? 8 2:? @? ? 64 E@ F
+sy st e m s o t h an  no p ro b le m i s c rea ted
+ 
+a nd  we ca n  
+d o  ea
+si ly a ny  ope ration i n  our  pen dri v e ( lik e  cop y , 
+p a st e,. .)
+.
+ 
+S te p1 0
+-
+ 
+EJ A6 6I :E C6 I :EC@ > :D< A 2CE 6CG :4 6 
+ 
+S te p 1 1
+-
+ 
+EJ A6=2 36 5 C:G 6
+-
+=2E6 36 >6 7@ 
+g iv ing a la be l to  o ut p en d ri ve .
+ 
+ 
+ 
+No te  
+
+ 
+if y ou  wan t to  mak e y o u r p en d riv e b o o ta b le  
+th a n  
+:
+ 
+S te p 1
+-
+ 
+5 @ H? =@25 
+.ISO
+ 
+imag e  f il e o fo p e ra tin g  
+DJ DE 6 >
+.
+ 
+S te p 2
+-
+ 
+rig h t c lic k o n  i so  f il e a nd  c lic k o n  moun t.
+ 
+S te p 3
+-
+ 
+c o py  a ll f il es and  p a ste  on yo u r pe nd rive .
+ 
+ 
+(No w y o u r pe n dri v e i s bo o ta b le).
+ 
+ 
+Ne twor k  s h e ll c o mma nd s 
+ 
+1
+ 
+n e ts h wla n  sho w p r ofile
+ 
+S h o w p ro fi le o f wif i whic h  i s c on n ec ted to y o ur 
+c o mp u ter.
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+2
+ 
+n e ts h wla n  sho w a ll
+ 
+S h o w p ro fi le o fa ll  wifi n e twor k s whi c h a re  
+2 G 2 :=2 3 =6 ?J @F 4@ >A F E6 2? 8 6 
+ 
+3
+ 
+n e ts h wla n  sho w p r ofile  
+wif i_ n a me  key =cle ar
+ 
+S h o w p ass wo rd (k e y c on te n t) o f wifi  n e twork wh ic h  
+is  c on n ec te d t o y o ur c omp u te r.
+ 
+4
+ 
+n e ts h wla n  del e te  pro fil e  name = 
+wif i_ n a me
+ 
+De le te  ( fo rgo t) y o ur wif i n e twor k f ro m you r 
+c o mp u ter.
+ 
+5
+ 
+n e ts h wla n  set  hos tedn e two r k 
+mo d e =a llo w s si d =
+ho tspo t_na me  
+k e y =pass wo r d
+ 
+S e t yo u r ho tsp o t with  new n a me  a nd  n e w pas swo rd .
+ 
+Ma k e  you r ho tsp o tin  wir e le ss ne twor k  adap te r.
+ 
+6
+ 
+n e ts h wla n  s ta r t h o stedn e two rk
+ 
+S ta rt /
+T u rn  
+On  y ou r ho tsp o t .
+ 
+7
+ 
+n e ts h wla n  s to p h o sted n e two rk
+ 
+Clo se /
+tu rn  
+Off  you r ho tsp o t.
+ 
+Ba si c  n e twork e sse n tial c o mma n d s 
+ 
+1
+ 
+i
+p c o nfi g
+ 
+S h o w i p a d dre ss o fy o ur wif i .
+ 
+2
+ 
+ip c o nfi g /a ll
+ 
+S h o w a ll d e ta il s of yo u r wi
+-
+fi 
+n e twork lik e  hos t 
+n a me , IP a dd re ss e tc .
+ 
+3
+ 
+g e tma c
+ 
+S h o w p hy si ca l /mac/h ard wa re  add re ss o f yo u r 
+c o mp u ter.
+ 
+4
+ 
+p in g  
+ip _ ad d re ss
+ 
+Fo r in te ra
+ct
+ 
+o fa n y c o mp u te r whi c h  
+we h a ve  t o
+ 
+in te rc o nn e c t
+ 
+toge ther  wit h  s a me  
+n e twork so th at we  
+c a n  sha re  f ile  by u sin g n e twor k .
+ 
+5
+ 
+p in g d o ma in_n a me
+ 
+ex.
+-
+ 
+www.g o o g le .com
+ 
+Fo r k n o win g I P a dd re ss o f an y  
+d o ma in.
+ 
+6
+ 
+t
+r a ce r t
+ 
+o ther _sy stem_IP
+ 
+T ra ce  a ll i p b e tween y ou r c o mpu te r ne twork an d  
+o th e r n e twork.
+ 
+7
+ 
+tr a ce r t www.g o o gle .com 
+ 
+S h o w a ll ip b e twee n y ou  a nd  g oo g le  s erv e r
+ 
+a nd  
+a ls o  ta k e t ha t ho w man y  t ime take n b y g o og le to  
+re a ch  my req u est  a t s e rv e r
+ 
+wh a te v er I se a rc h
+.
+ 
+ @ F C A @F * ' A @ @ 8 =6 2E2 E6 
+se rv er ip)
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+8
+ 
+n e ts ta t 
+-
+e
+ 
+S h o w y ou r ne twor k  
+st a tis ti c s.
+ 
+9
+ 
+n sl o ok u p d o ma in _ name
+ 
+S h o w 
+IP a nd  s e rv e r
+ 
+a dd re ss o fd o ma in .
+ 
+ex.
+-
+ 
+n sl oo k up  www.g it h u b .com
+ 
+10
+ 
+h o st na me
+ 
+Ge t h o st n a me .
+ 
+11
+ 
+n e ts ta t 
+-
+a
+ 
+Fo r k n o win g who  a re  stab il isi n g c on n ec ti on  with  
+y o u r co mp u te r 
+a n d  who wan t to c o nn e ct wit h  you r 
+L AN
+. 
+ 
+12
+ 
+r o u te  p rin t
+ 
+Fo r wa tc h ing an d  man ip u la tin g IP 
+ro u tin g ta ble . It  
+h e lp s u s to  sho w r o uti ng  t a ble , ma tri
+c
+ 
+and 
+in te rfa c e. 
+ 
+13
+ 
+Ip c o nfi g /?
+ 
+He lp  f o r ne tworki n g c omma n d s.
+ 
+14
+ 
+ip c o nfi g /a ll  
+ 
+Dis p la y  fu ll c o nfi g ura tio n  i nfo rma tio n .
+ 
+ 
+15
+ 
+Ip c o nfi g /r en e w
+ 
+Re n e w a ll  ada p te rs .
+ 
+16
+ 
+ftp
+ 
+Fo r sh a rin g a n y 
+impo rta n t
+ 
+file  to  o th e r.
+ 
+No te  :
+-
+ 
+by  f tp  comma n d y o u  will e n te r in  f tp serv ic e 
+lo o p .
+ 
+17
+ 
+b y e
+ 
+Ex it  f ro m f tp se rv ic es lo o p .
+ 
+18
+ 
+ss h  u se r _n a me @ip _ ad d r e ss
+ 
+S sh  giv e s c on tr ol o fy ou r o th e r co mu ter.
+ 
+By  u si n g s sh c o mma n d y o u c a n o p en  you r other 
+c o mp u ter 
+te rminal  in  you r co mp u ter an d  use  it 
+(e v en  i fy o ur c o mpu te r is a ny wh e re ).
+ 
+On ly  y ou  s ho u ld k no w i p  a dd re ss o fy o ur o th e r 
+4 @ >A F ?5 =D@F D6 C 2 >6 E DH@ C5 
+ 
+NOT E:
+-
+ 
+y o u r o th e r comp u te r sh o u ld  b
+e  powe re d  
+on.
+ 
+Oth e r in te re sti n g c o mman d s:
+ 
+1
+ 
+c o lor ?
+ 
+T e rmin a l c o lo r re c o mme n d ati o n .
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+2
+ 
+    
+0  = Black       8 = Gra y
+ 
+    
+1  = Blu e        9 = Lig h t Blu e
+ 
+    
+2  = Green      A = Lig h t Green
+ 
+    
+3  = Aq ua        B = Lig h t Aq ua
+ 
+    
+4  = Re d         C = Lig h t Re d
+ 
+    
+5  = Pu rp le      D = Lig h t Pu rp le
+ 
+    
+6  = Ye llo w      E = Lig h t Ye llo w
+ 
+    
+7  = White        F = Br ig h t Wh it e
+ 
+c o lo r  0 c 
+
+   
+termin al fo n t c o lo r re d  .
+ 
+fi rs t fo r ba ck g roun d c olo r an d  se
+c on d  for  fon t c o lor.
+ 
+Ex .
+-
+ 
+c o lo r 06  ( ba c kg roun d  col or b la c k a n d f on t c olo r ye llo w).
+ 
+3
+ 
+ti tl e ti tle _ na me
+ 
+Ch a n g e  tit le n a me o f termin a l.
+ 
+Ex . ti tl e  Hario m Raj p u t.
+ 
+4
+ 
+p r o mpt p r o mpt_n a me
+ 
+Ch a n g e d ir ec to ry  pat h wit h  o th er na me .
+ 
+Ex .
+-
+ 
+C:
+\
+Use rs
+\
+h ari o mme wa d a > p ro mp t HS R 
+
+ 
+HS R
+ 
+5
+ 
+mo d e  s ize
+ 
+ex.
+-
+ 
+mod e  120 , mod e 50 ,e tc.
+ 
+Fo r c h an g ing the size  of t e rmin al.
+ 
+6
+ 
+tr e e
+ 
+Ma k e  a tr e e o fa ll  fo lders  whi c h a re e x ists  in  driv e  
+(We  c a n s e e a ll f o ld e rsa n d  sub
+-
+fo lder s) .
+ 
+7
+ 
+d o sk ey  / his tor y
+ 
+S h o w 
+h isto ry o fa ll c md  c o mma n d s wh ich are  you  
+h a v e u sed .
+ 
+8
+ 
+d a te
+ 
+Fo r g e tt in g c u rren td a te  & a ls o  we ca n mod if y.
+ 
+9
+ 
+ti me
+ 
+Fo r g e tt in g c u rren tti me  & a ls o  we ca n mod if y.
+ 
+10
+ 
+sh u tdown 
+-
+s 
+-
+t 
+-
+time _ in _ sec o n ds
+ 
+ex.
+-
+ 
+sh u td o wn  
+-
+s 
+-
+t 
+-
+60
+ 
+S h u td o wn  you r co mp u te r a fte r 
+giv in g  t ime.
+ 
+If  we g ive ti me 6 0  th a n a ft e r 60  secon d s(
+1
+ 
+minut e ) 
+y o u r co mp u te r wil lb e  shu tt in g  down .
+ 
+11
+ 
+sh u tdown 
+-
+r 
+-
+t 
+-
+ti me _ in _ sec o n ds
+ 
+Re st a rt  you r co mp u te r aft e r giv in g ti me  .
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+ex.
+-
+ 
+sh u td o wn  
+-
+r 
+-
+t 
+-
+60
+ 
+If  we g ive ti me 6 0  
+th a n a ft e r 60  secon d s(
+1
+ 
+minut e ) 
+y o u r co mp u te r wil lb e  res ta rt.
+ 
+12
+ 
+Co mman d _ n a me  | c lip
+ 
+Co p y  o u tp u t o fc o mma n d .
+ 
+Ex .
+-
+ 
+ip co n fig   
+|
+  
+c lip ,
+ 
+ 
+d ir  
+| 
+ 
+c li p,  etc .
+ 
+13
+ 
+Pr e ss  f 7 k e y 
+ 
+Fo r wa tc h ing yo u r his to ry .
+ 
+14
+ 
+Hel p
+ 
+Pro v id e s Hel p  in fo rma tio n  fo r Win do ws 
+c o mma n d s.
+ 
+15
+ 
+sf c  / sc a nn o w
+ 
+S c a n c o mp ute r an d r e mo v e v ir u se s.
+ 
+16
+ 
+e
+c h o  
+o ff
+ 
+H
+id e  
+p a th  o f c u rre nt d ire c tory  in  t ermin a l.
+ 
+1
+7
+ 
+e
+c h o  
+o
+n
+ 
+S
+how
+ 
+p a th  of c urr e nt d ire c tory  in  t ermin a l.
+ 
+CM D
+ 
+9 2 4 < 
+ 
+1
+ 
+1.
+ 
+md a u x
+\
+ 
+2.
+ 
+md c o n
+\
+ 
+1.
+ 
+Ma k e  aux  fo ld er wh ic his  n o t a llo we d  i n 
+win d o ws.
+ 
+2.
+ 
+Ma k e  con  fo ld er wh ic his  n o t a llo we d  i n 
+win d o ws.
+ 
+(A
+n
+ 
+in tere sting c o mman d  of CMD)
+ 
+NO TE:
+-
+  
+˛:C DE @ F 2 G 6 @6 ? 23 =6 =? 6 E ? EF C6@ 77 
+y o ur win d o ws mac h in e .
+ 
+ 
+Fo r  e n ab le :  
+Go to c ontr o lp a na l > pro gr a ms > tu r n win d o ws fe a ture s on  or o ff > e na b le  
+Te ln e t Cli e nt.
+ 
+%@ H A 6 ? 2 ? 2 5 >:? :D EC 2 E@C
+ 
++J A 6 ? 6
+E@ H6 = =:? < 6 ? =:8 9 E ? = 2? 5A C6 DD 6 C ?4 >5
+.
+ 
+ 
+No te : y ou r co mpu ter sho u ld b e c o nn e cte d t o a  wi
+-
+fi .
+ 
+ 
+No w y o u  c an  wat c h a
+ 
+sta r 
+wa rs
+ 
+mo v ie  with  chara c ters  and  symbo ls in te rmin a la n d i mp re ss yo u r 
+fr ie nd s.
+ 
+ 
+ 
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+ 
+A
+-
+Z Wi n d o ws CM D Comma n d s
+ 
+ 
+a d mo d c md
+ 
+ 
+Use d  f o r b u lk  mod ify ing c on te nts  in  a n a c tiv e d ir e cto ry
+ 
+ 
+arp
+ 
+ 
+Ad d re ss  Resol u tio n Pro to co l is u sed  t o map  IP a d d re ss to th e 
+h a rd wa re  
+a dd re ss
+ 
+w
+ 
+a ss o c
+ 
+ 
+Use d  t o c h an g e a ssoc ia ti o ns for f ile  e xte n sio ns
+ 
+ 
+a ss oc ia t
+ 
+ 
+On e  s tep fi le  a sso c ia tio n
+ 
+ 
+at
+ 
+ 
+Ru n  a  comma n d  a t a  spe c ific  t ime
+ 
+ 
+a tma d m
+ 
+ 
+Dis p la y c o nn e cti on  i n fo  o f th e  ATM a da p te r
+ 
+ 
+a tt rib
+ 
+ 
+Use d  t o c h an g e f ile  a ttri b u te s
+ 
+B
+ 
+ 
+b c d bo o t
+ 
+ 
+Use d  t o c rea te a n d r e pa ir  a sy ste m p a rtit ion
+ 
+ 
+b c d ed it
+ 
+ 
+Use d  t o  man a ge  b oo tco n fi gu ra tio n d a ta
+ 
+ 
+b it sadmi n
+ 
+ 
+Use d  t o  man a ge  t he  Bac k gro un d  Inte lli ge n tTra n sfe r Se rv ic e
+ 
+ 
+b o o tc fg
+ 
+ 
+Use d  t o e d it b oo t co n fig u ra tio n in  Wind o ws
+ 
+ 
+b r e ak
+ 
+ 
+En a b le /Disa b le b rea k c a p ab il ity  ( CT RL +C) in  CMD
+ 
+C
+ 
+ 
+c a c ls
+ 
+ 
+Use d  t o c h an g e p ermis si o n s of fil e s
+ 
+ 
+c a ll
+ 
+ 
+Use d  o ne  bat c h p ro g ram t o  c a ll a no th er
+ 
+ 
+c e r tr e q
+ 
+ 
+Use d  t o re qu e st a  cer tifi c a te  f ro m a c ert if ic a tio n  aut h ori ty
+ 
+ 
+c e r tu ti l
+ 
+ 
+Ma n a ge  
+Ce rt if ic a tio n Au th o ri ty  f ile s an d  ser vic e s
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+ 
+cd
+ 
+ 
+Use d  t o c h an g e f o ld e r (d ir ec to ry ) or  go to a  spe c ific  one
+ 
+ 
+c h a ng e
+ 
+ 
+Use d  t o c h an g e t e rminal  s e rv ices
+ 
+ 
+c h c p
+ 
+ 
+Dis p la y s t h e n u mb er of a c tiv e c o n so le c od e  pag e
+ 
+ 
+c h d ir
+ 
+ 
+S a me  a s c d c o mma n d
+ 
+ 
+c h k dsk
+ 
+ 
+Use d  t o  
+c h ec k a n d r e pa ir  i ssue s i n  th e d is k
+ 
+ 
+c h k ntf s
+ 
+ 
+Use d  t o c h ec k  th e  NTFS fi le sy ste m
+ 
+ 
+c h o ic e
+ 
+ 
+Ac c e p tu se r i n pu t (v ia k e y bo a rd ) to  a b a tch file
+ 
+ 
+c ip he r
+ 
+ 
+Use d  t o e n cry p t/d ec ryp t fi le s an d  fo lder
+ 
+ 
+c le an mg r
+ 
+ 
+Use d  c le a n te mp  f ile s an d  rec yc le b in 
+a u to mati c a lly
+ 
+ 
+c li p
+ 
+ 
+Co p y  r esu lt o f an y c o mma n d  ( std in ) t o  Wind ows c li p bo a rd
+ 
+ 
+c ls
+ 
+ 
+Cle a r CMD s c re e n
+ 
+ 
+c md
+ 
+ 
+Use d  t o st a rt a n e w CMD s h e ll
+ 
+ 
+c mdk e y
+ 
+ 
+Use d  t o  man a ge  s tore d u se rn a me s an d p a ss word s
+ 
+ 
+c mst p
+ 
+ 
+Use d  t o in sta ll o r re mov e  a c o nn e cti on  
+ma n age r se rv ice p ro fi le
+ 
+ 
+c o lor
+ 
+ 
+Ch a n g e th e c o lo r of the CMD s h e ll  u sin g o p tio n s
+ 
+ 
+c o mp
+ 
+ 
+Co mp a re  c on tent s of two  f il e s or  t wo  sets  of f ile s
+ 
+ 
+c o mpa ct
+ 
+ 
+Co mp re ss  f ile s an d  fo ld e rs o n  an NT FS  p art itio n
+ 
+ 
+c o mpr ess
+ 
+ 
+Co mp re ss  one  or mo re fi le s
+ 
+ 
+c o nv e r t
+ 
+ 
+Co n v e rt a  FAT  p a rtit ion to  NTFS
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+ 
+c o py
+ 
+ 
+Co p y  o ne  or mo re  fil e s t o  ano ther  lo c ati o n
+ 
+ 
+c o re in fo
+ 
+ 
+S h o w t he  map pin g b e twe e n  l o gic al a nd  phy sic a l pro ce ss ors
+ 
+ 
+c p r ofi le
+ 
+Cle a n s sp e c ifi e d p ro fi les o f wa ste d  spa ce  and  disa b le d  use r
+-
+sp ec if ic  f ile  
+a ss o cia tio n s
+ 
+ 
+c sc md
+ 
+ 
+Co n fi g ure  offl ine file s on  a c li en t co mp u te r
+ 
+ 
+c sv de
+ 
+ 
+Imp o rt  or Ex p ort  t he  dat a  of a n a cti v e d ire c tory
+ 
+D
+ 
+ 
+d a te
+ 
+ 
+Use d  t o d is pla y t h e d a te  o r ch an g e it
+ 
+ 
+d e fra g
+ 
+ 
+Use d  t o d e fra g me n t s yst e m h a rd  d riv e
+ 
+ 
+d e l
+ 
+ 
+Use d  t o d e le te a  
+fi le (s )
+ 
+ 
+d e lpro f
+ 
+ 
+Use d  t o d e le te u se r p ro fi le (s)
+ 
+ 
+d e ltr e e
+ 
+ 
+Use d  t o d e le te a  f old e r a n d it s su b
+-
+fo lder s
+ 
+ 
+d e v co n
+ 
+ 
+Ac c e ss  th e c o mma n d  l in e  dev ice ma n ag e r uti lity
+ 
+ 
+d ir
+ 
+ 
+Use d  t o d is pla y f il es an d  f old e rs li st
+ 
+ 
+d ir qu o ta
+ 
+ 
+Ma n a ge  File  Ser ve r Re so u rc e  
+Man a ge r qu o ta s
+ 
+ 
+d ir u se
+ 
+ 
+Use d  t o d is pla y d isk  u sa g e
+ 
+ 
+d is k co mp
+ 
+ 
+Co mp a re  c on tent s of two  f lo p py  d isk s
+ 
+ 
+d is k co p y
+ 
+ 
+Co p y  d ata o f on e  f lo ppy  d isk  t o a no th er
+ 
+ 
+d is k pa r t
+ 
+ 
+Ma k e  cha ng e s to pa rt itio n s of sto rag e ,b o th  i n te rn a l a nd  con ne c ted
+ 
+ 
+d is k sh a do w
+ 
+ 
+Ac c e ss  th e  Dis k S ha d ow Cop y  S e rvic e
+ 
+ 
+d is k use
+ 
+ 
+Vie w u se d  spa ce  i n f o ld e r( s)
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+ 
+d o skey
+ 
+ 
+Use d  t o e d it c o mma n d li n e ,re ca ll c o mma n d s, a n d c re ate  mac ro s
+ 
+ 
+d r iver qu e ry
+ 
+ 
+Dis p la y a  l ist o f i n sta lle d  dev ice d riv ers
+ 
+ 
+d sa cls
+ 
+ 
+Vie w a n d  edi t ac ce ss  con tr ol 
+e ntr ies f o r o bje c ts in  act ive dir e cto ry
+ 
+ 
+d sa dd
+ 
+ 
+Use d  t o a d d o bje c ts to a c ti ve  d ire c to ry
+ 
+ 
+d sg et
+ 
+ 
+Vie w o b je c ts in a c tiv e d ir e cto ry
+ 
+ 
+d sq ue r y
+ 
+ 
+Fin d  o bje c ts in a n a c tiv e  d ire c to ry
+ 
+ 
+d smo d
+ 
+ 
+Use d  t o  mod if y o b je c ts i n  an a cti v e d ire c to ry
+ 
+ 
+d smo v e
+ 
+ 
+Re n a me  o r 
+mo ve  an acti v e d ir ec to ry  obj e ct.
+ 
+ 
+d sr m
+ 
+ 
+Re mo v e  o b je c ts fr o m an a c tiv e d ir ec tory
+ 
+ 
+d smg mt
+ 
+ 
+Ma n a ge  Act ive Dir e c to ry  Lig h tweig h t Dire c to ry  Ser v ic e s
+ 
+E
+ 
+e c h o
+ 
+T u rn c o mma n d
+-
+e c ho ing fe atu re o n/o ff , d isp lay a  mes sa g e o n th e sc ree n
+ 
+e n d loca l
+ 
+En d  
+lo ca li zatio n e nv ir on me n t ch a ng e s in  a b a tc h  f ile
+ 
+e r a se
+ 
+Use d  t o d e lete  on or mo re  f ile (s)
+ 
+e v e ntc re a te
+ 
+Ad d  c u sto m e v en t to  Win d o ws e ve n t l o g ( Ad min  r ight s re q uir e d)
+ 
+e v e ntq ue r ry
+ 
+Dis p la y  lis t of ev e n ts an d  t he ir p rop e rt ie s from e v e n tlo g s
+ 
+e v e ntt r ig g er s
+ 
+Dis p la y a n d c o nfi gu re e v e nt tr ig g ers  on loca la n d  remot e  mach ines
+ 
+e x it
+ 
+Ex it  t h e c o mma n d  lin e (Qu it  c u rre nt b atc h sc rip t)
+ 
+e x p an d
+ 
+Un c o mp re ss o n e o r more  . CAB f il e (s )
+ 
+e x p lo r er
+ 
+Op e n  Win do ws Ex p lo rer
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+e x tra c t
+ 
+Un c o mp re ss o n e o r more  
+Win do ws c a bin e t f il e(s )
+ 
+F
+ 
+fc
+ 
+Use d  t o c o mp a re  t wo  f ile s
+ 
+fi n d
+ 
+Use d  t o  sea rc h a  s pe c ifie d  te x t str ing in a  f ile
+ 
+fi n d str
+ 
+Use d  t o  fin d st rin g  pat te rn s in  f ile s
+ 
+fi n g er
+ 
+Dis p la y  in fo rma tio n a bo u t use r(s)  on a sp ec if ie d  r e mo te  comp u te r
+ 
+fl a ttemp
+ 
+Use d  t o  
+e n ab le /d is ab le fl a t te mp o ra ry  fo ld ers
+ 
+Fo r
+ 
+Ru n  a  comma n d  i n a  l oo p  f or a  fil e (s)  fo r de fi ne d  par a me ter
+ 
+fo r file s
+ 
+Use d  f o r ba tc h p ro ce ss in g  o f s e le c ted file (s)
+ 
+fo r ma t
+ 
+Use d  t o  fo rma t a d isk
+ 
+fr e ed is k
+ 
+Use d  t o c h ec k  f re e sp ace  o n a  d isk
+ 
+fs u ti l
+ 
+Fil e  
+sy ste m u ti li ty  t o man a ge  f ile  and d ri ve  p ro p e rtie s
+ 
+ftp
+ 
+Use  FTP s e rv ic e t o tr an sf e r files fr o m one  PC t o  a no ther
+ 
+ft y p e
+ 
+Dis p la y / Mod if y f il e e xte n si on  t yp e a ss oc ia tio ns
+ 
+G
+ 
+g e tma c
+ 
+Use d  t o d is p la y th e  MAC a d d re ss o fy o ur ne twor k  ada pte r
+ 
+g o to
+ 
+Use d  t o  
+d ir ec t a b a tc h p ro g ra m t o  a li ne  i de n tif ie d b y a  l ab e l
+ 
+g p r esu lt
+ 
+Dis p la y  Group  Pol ic y  Set ti ng s an d  Resul tant  Set  o f Po lic y fo r a u se r
+ 
+g p u pd a te
+ 
+Up d a te  lo c al a nd  act ive d ire c tory b a sed  on g ro u p p o lic y  sett in g s
+ 
+g r a fta b l
+ 
+T u rn o n  th e a b ilit y  to  d isp la y a n  
+e x te n de d c h a ra c te r i n g rap h ics mo d e
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+H
+ 
+h e lp
+ 
+Dis p la y a  l is t o fc o mma n d s an d  see o n lin e  in format io n  fo r th e m
+ 
+h o st na me
+ 
+Use d  t o d is p la y h o st n ame  o f the c o mpu te r
+ 
+I
+ 
+ic a c ls
+ 
+Use d  t o c h an g e p e rmissi o n s of fil e s an d f o ld e rs
+ 
+ie x pr e ss
+ 
+Use d  t o c re ate  a 
+se lf
+-
+extr a c tin g zi p a rc hiv e
+ 
+if
+ 
+Use d  f o r co nd it io n al p ro c e ssin g in b a tch p ro g ra ms
+ 
+if me mbe r
+ 
+Dis p la y  th e g rou p (s) a n a c tiv e  use r be lo n g s t o
+ 
+in u se
+ 
+Re p la c e t h e f il es wh ic hth e  OS is c u rre ntl y u si ng  ( rest a rt r e qu ire d )
+ 
+ip c o nfi g
+ 
+Dis p la y a n d c h an ge  
+Win d o ws IP c on fi gu ra tio n
+ 
+ip se cc md
+ 
+Use d  t o c o n fig ure  I P Sec u rity  pol ic ie s
+ 
+ip x ro u te
+ 
+Dis p la y a n d  mod if y ro uti n g  ta b le  i nfo rma tio n  use d  by IPX p ro to c ol
+ 
+ir ft p
+ 
+Use d  t o  sen d f ile s ov e r an  i nfr a re d  lin k (i n fra re d  f un c tio n ali ty 
+re q u ire d)
+ 
+L
+ 
+la b e l
+ 
+Use d  t o  
+c h an g e th e n ame  o f a d is k
+ 
+lo d c tr
+ 
+Up d a te  reg istr y v a lu e s wit h  l a test pe rf o rman c e c o un te rs
+ 
+lo g ma n
+ 
+Use d  t o  mana g e p e rfo rma n c e  mon ito r lo g s
+ 
+lo g o ff
+ 
+L o g a  u se r o ff
+ 
+lo g ti me
+ 
+Ad d  t h e d a te , ti me ,a n da  mes sa ge  t o a  te x tfi le
+ 
+lp q
+ 
+Dis p la y s pr in t qu e ue  
+sta tu s
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+lp r
+ 
+Use d  t o  sen d a  fil e  to  a c o mp u ter r un n in g  th e  Lin e  Pri n te r Da e mo n 
+se rv ic e
+ 
+M
+ 
+ma c fi le
+ 
+Ma n a g e f il es serv e r f o r Ma c k into sh
+ 
+ma k e c ab
+ 
+Use d  t o c re ate  .c a b f il es
+ 
+ma p is e nd
+ 
+Use d  t o  sen d e ma il  from c o mma n d  l ine
+ 
+mbs a c li
+ 
+Mic ro so ft Ba se lin e  
+S e cu ri ty  Ana ly se r
+ 
+me m
+ 
+Use d  t o  sho w memo ry u sa ge
+ 
+md
+ 
+Use d  t o c re ate  direc to rie s an d  sub
+-
+d ir ec to rie s
+ 
+mkd ir
+ 
+Use d  t o c re ate  direc to rie s an d  sub
+-
+d ir ec to rie s
+ 
+mkl in k
+ 
+Use d  t o c re ate  symbo lic  l ink to a  d ire cto ry
+ 
+mmc
+ 
+Ac c e ss  Mic ro so ft Ma n ag e me n t Co n so le
+ 
+mo d e
+ 
+Co n fi g u re  COM, L PT , CO N s y st e m d e v ic e s
+ 
+mo r e
+ 
+Dis p la y o n e sc re e n o f ou tp u t a t time
+ 
+mo u n tv ol
+ 
+Cre a te , list ,o r de le te  a v o lu me  moun t po in t
+ 
+mo v e
+ 
+Use d  t o  move  f ile s fro m o n e fo lder  to  ano ther
+ 
+mo v e u ser
+ 
+Mo v e  u se r ac c ou n t t o a d o ma in o r be twee n mac h ines
+ 
+msg
+ 
+Use d  t o  sen d a p o p
+-
+u p me ss a g e to  a u se r
+ 
+msi e x e c
+ 
+In st all , mo d ify ,c o n fig ure  u sin g  Wind o ws In st all e r
+ 
+msi n fo 32
+ 
+Dis p la y  sys te m in fo rmati o n
+ 
+mst sc
+ 
+Cre a te  a re mo te d e sk top c on n ec ti on
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+N
+ 
+n b st at
+ 
+Dis p la y  Net BIOS  o ve r TCP/I P i n fo rma ti o n
+ 
+n e t
+ 
+Use d  t o  mana g e 
+n e twork re so u rce s an d se rv ic es
+ 
+n e tdom
+ 
+Ne twor k  Doma in  Ma n ag e r uti li ty
+ 
+n e ts h
+ 
+Dis p la y o r mo d ify  net wo rk  con fig u ra ti on
+ 
+n e ts ta t
+ 
+Dis p la y a c tiv e  T CP/I P c o n ne c tio n s
+ 
+n ls in fo
+ 
+Use d  t o d is p la y lo ca le  in fo rma tio n
+ 
+n lt e st
+ 
+L is t do ma in c o n tro lle rs, f o rce  r e mo te  
+sh u tdown,  e tc
+ 
+n o w
+ 
+Dis p la y d a te a nd  t ime
+ 
+n sl o ok u p
+ 
+Ch e c k  I P a dd ress  on a Na me  S e rv e r
+ 
+n tb ac k u p
+ 
+Ba c k u p d a ta  t o ta pe  u sin g  CMD o r b a tch fi le
+ 
+n tc mdp ro mpt
+ 
+Ru n s c md .exe  in st ea d  of c o mma n d .e x e in  an MS
+-
+DOS  a p p lic a tio n
+ 
+n td sutil
+ 
+Ma n a g e Act iv e Dir e c tory  
+Do ma in  Ser v ic e s
+ 
+n tr ight s
+ 
+Use d  t o e d it u ser a cc o un t p riv il eg e s
+ 
+ntsd
+ 
+On ly  f o r sy ste m d e ve lope rs
+ 
+n v sp bin d
+ 
+Use d  t o  modify n e twor k b in din g s
+ 
+O
+ 
+o p e nfi le s
+ 
+Qu e ri e s or  d isp la y s op en  f il es
+ 
+P
+ 
+p a g efi leco nfi g
+ 
+Dis p la y a n d c o nfi gu re Vir tu a l me mo ry se tt in gs
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+p a th
+ 
+S e t PAT H e n v iro n me n tv a ri ab le fo r ex ec u ta b lefi le s
+ 
+p a th pin g
+ 
+L a tenc y a n d Pac k et lo ss in fo fo r e ac h  nod e i n th e  net wo rk p a th
+ 
+p a u se
+ 
+Use d  t o  stop p roc e ssing  o fa  b atc h fi le
+ 
+p b a d min
+ 
+S ta rt s Pho n e Boo k  Admin is tra to r
+ 
+p e n tnt
+ 
+De te c t Flo ati n g Poi n tDiv is io n  
+e rr or in th e Pen ti u m chi p
+ 
+p e r fmo n
+ 
+Ac c e ss  per forman c e mon it or in  CMD
+ 
+p e r ms
+ 
+Dis p la y a  u se r
+\
+ˆ# 6 C>:D D: @? 7@ 2 := 6
+ 
+p in g
+ 
+T e st n e twor k c on n ec ti on  t o a  c o mpu te r
+ 
+p o p d
+ 
+Go  t o  t he  l a te st p a th /f o ld e r sto red  by PUS HD c o mma n d
+ 
+p o r tq r y
+ 
+Dis p la y T CP a n d  UDP 
+p o rt  statu s
+ 
+p o we r c fg
+ 
+Use d  t o c o n fig ure  powe r se tt in g s a nd  k no w b a tte ry h e a lth
+ 
+p r in t
+ 
+Use d  t o p ri n t a  te x tfi le(s ) fro m CMD
+ 
+p r in tb r m
+ 
+Fo r b a ck u p /re co v ery /mig ra tio n o f th e  prin tq ue u e
+ 
+p r n cn fg
+ 
+Use d  t o c o n fig ure /re n ame  a  p rin ti ng  d ev ice
+ 
+p r n dr v r
+ 
+L is t/ ad d /d e lete p ri n te r dr iv ers
+ 
+p r n jo b s
+ 
+L is t/ pa u se /r esu me /can ce l p rin t jo b s
+ 
+p r n mngr
+ 
+L is t/ ad d /d e lete p ri n te rs, d is pla y /se td e fa u lt p rin te r
+ 
+p r n po r t
+ 
+L is t/ cre a te /del e te  T CP p ri n te r po rt s, d isp lay/ ch a n ge  por tc o n fig u ra tio n
+ 
+p r n qc tl
+ 
+Cle a r p rin te r q ue u e, 
+p rin t a te st p ag e
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+p r o cd u mp
+ 
+Mo n it o r sy ste m f o r CPU s p ik e s, g en e ra te a  c ra sh  rep ort  dur ing a sp ik e
+ 
+p r o mpt
+ 
+Use d  t o c h an g e th e Promp t in  CMD
+ 
+p se xe c
+ 
+Ru n  a  CMD p ro c e ss o n a  r e mo te  c o mpu te r
+ 
+p sf il e
+ 
+Dis p la y  remot e ly  o pe ned  f il es,  c lo se a n o p en  f ile
+ 
+p si n fo
+ 
+L is t sy st e m i nfo rma tio n a b ou t a lo ca l/ re mo te ma c h in e
+ 
+p sk il l
+ 
+Kil l a  p ro c e ss( e s) u sin g i ts  name  o r pr oc e ss ID
+ 
+p sl is t
+ 
+Dis p la y p ro ce ss st a tu s an d  in fo a bo u ta c tiv e  pro c e sse s
+ 
+p sl o gg e do n
+ 
+S e e a c tiv e  use rs o n  mac h ine
+ 
+p sl o gli st
+ 
+Dis p la y e v en t log 
+re c o rd s
+ 
+p sp a sswd
+ 
+Use d  t o c h an g e a cc o unt p a ss wo rd
+ 
+p sp ing
+ 
+Use d  t o  measu re n etwor k  p erf o rma nc e
+ 
+p ss e rv ice
+ 
+Dis p la y a n d c o ntr o l s e rv ic e s o n a  mac hin e
+ 
+p ss h utd o wn
+ 
+S h u td o wn /r est a rt/l og o ff/l o c k a  lo c a l o r re mo te ma c h in e
+ 
+p ss u spen d
+ 
+Use d  t o  sus pe n d a  
+pro ce ss  on a  lo ca l o r r e mo te  c o mp ute r
+ 
+pushd
+ 
+Ch a n g e c u rren tfo lder a n d  stor e p re v ious  fo lder  f o r u se  b y POP D
+ 
+Q
+ 
+q g r ep
+ 
+S e a rc h  f ile (s) f or a g iven  s tr in g p a tte rn
+ 
+q u e ry  p ro c ess  or 
+q p r oc e ss
+ 
+Dis p la y  in fo rma tio n a bo u t pro ce ss es
+ 
+R
+ 
+r a sd ia l
+ 
+Dis p la y  Remo te 
+Ac c e ss S e rvic e S ta tu s
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+r a sp ho n e
+ 
+Ma n a g e RAS  c o n ne c tion s
+ 
+rcp
+ 
+Co p y  f il es to a  comp u ter r u nn ing re mo te  s he ll se rv ic e
+ 
+r e c ov e r
+ 
+Re c o v e r r e ad a ble d a tafr o m a  def e cti v e d isk
+ 
+reg
+ 
+Dis p la y /a d d /c ha n ge  r eg is tr y k ey s an d v a lues  in  Win d o ws re g istr y
+ 
+r e g ed it
+ 
+Imp o rt /exp ort /del e te  s ett in g s f ro m a .r eg  t ex t file
+ 
+r e g sv r 32
+ 
+Use d  t o  reg iste r/u n re g ist e r a DLL  f ile
+ 
+r e g in i
+ 
+Use d  t o c h an g e re gis try  p e rmis sio ns
+ 
+r e log
+ 
+Ex p o rt  per forman c e c ou n te rs to o ther  fo rma ts li k e T S V, CS V, S QL
+ 
+rem
+ 
+Ad d  c o mme n ts  in  bat c h f il e
+ 
+ren
+ 
+Use d  t o  ren a me a  f ile (s)
+ 
+r e p la c e
+ 
+Use d  t o  rep la c e a  f ile  with  ano ther  fil e o f sa me n a me
+ 
+r e se t s e ssi o n
+ 
+Use d  t o  res e t a  remot e d e sk to p  ses sio n
+ 
+r e x ec
+ 
+Ru n  c o mma n d s on  remot e  mach in es run n in g  Re x e c s e rv ic e
+ 
+rd
+ 
+Use d  t o d e lete  a fo ld e r(s)
+ 
+r mdi r
+ 
+Use d  t o  
+d e lete  a fo ld e r(s)
+ 
+r mts h a re
+ 
+Ma n a g e f il e a nd  p rin ter s h a re s lo c al o r re mo te  s e rv e rs
+ 
+r o b oc o py
+ 
+Use d  t o c o py  f ile s an d  fo ld e rs that  hav e c ha n ge d
+ 
+r o u te
+ 
+Dis p la y /c h an g e th e l o ca l IP r o uti ng  t ab le
+ 
+r sh
+ 
+Ru n  c o mma n d s on  remot e  ser v ers  run n in g  RSH s e rv ice
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+r sm
+ 
+Ma n a g e med ia re sou rce s u sin g  Remo va b le st ora g e
+ 
+r u n a s
+ 
+Ru n  a  p ro g ra m a s a d iffe re nt u se r
+ 
+r u n d ll3 2
+ 
+Use d  t o  run a  DLL  progr a m
+ 
+S
+ 
+sc
+ 
+Use  S e rvic e  Con tr o lle r to ma n ag e  Wind o ws serv ic es
+ 
+sc h task s
+ 
+S c h ed u le  c o mma n d(s ) to  r u n a ta  s pe c ific  t ime
+ 
+se c ed it
+ 
+Co n fi g u re  s yst e m s ec u rit y
+ 
+se t
+ 
+Dis p la y /se t/ re mo v e e n vir o n me n t v a ria ble s in  CMD
+ 
+se tl oc a l
+ 
+Co n tr o lv is ibilit y o fe n vir o n me n t v a ria ble s in  a b a tch fi le
+ 
+se ts pn
+ 
+Ma n a g e S e rv ice Pri n c ip a l Na me s for an  Act ive Dir e c to ry  ser vic e  
+a c c ou n t
+ 
+se tx
+ 
+S e t En v iro n me nt Va ri ab
+le s pe rma ne n tly
+ 
+sfc
+ 
+S y st e m File  Chec k er
+ 
+sh a re
+ 
+L is t/ ed it a  f ile  s ha re o r pr in to n a n y c o mp ute r
+ 
+sh e llr u n as
+ 
+Use d  t o  run a  comma n d  a s a d iffe re n tu se r
+ 
+sh if t
+ 
+Ch a n g e  th e p o siti o n o fth e  bat ch  p ara me ters  i n a  b atc h fi le
+ 
+sh o r tc u t
+ 
+Cre a te  a  Win d o ws 
+sh o rtc u t
+ 
+sh u tdown
+ 
+S h u td o wn  t he  comp u te r
+ 
+sl e e p
+ 
+Pu t c o mp u te r to sl ee p  fo r spe c if ie d n u mb e r o fse c on d s
+ 
+sl mg r
+ 
+S o ft wa re L icen sin g  Mana g e men t tool  fo r ac ti va ti o n a nd  KMS
+ 
+so r t
+ 
+Use d  t o  sor ta n d d isp lay a  red ire c te d  or p ip e din p u t
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+st a r t
+ 
+S ta rt a  
+pro g ra m, c o mma n d ,o r ba tch fi le
+ 
+st r ings
+ 
+Fin d  ANS I a n d  UNICO DE s tr in g s in b inar y f ile s
+ 
+su b inac l
+ 
+Dis p la y /modify  ACEs fo r fi le  a nd  fo ld er p ermis si o n s
+ 
+subst
+ 
+Ass o c ia te  a p a th  with  a d ri ve  l e tte r
+ 
+sy smo n
+ 
+Mo n it o r an d l o g s y ste m a c tiv it y to  Wind o ws e ve n t lo g
+ 
+sy st e minfo
+ 
+Dis p la y d e taile d c on fi gu ra tio n  in fo rma tio n a bo u t th e  comp u ter
+ 
+T
+ 
+ta k eo wn
+ 
+Use d  t o  ta k e t h e o wn e rsh ip o f a fi le
+ 
+ta sk kil l
+ 
+Use d  t o  te rmin a te  on or mo re  r un n in g p ro ce sses
+ 
+ta sk list
+ 
+Dis p la y a  l is t o fru nn ing a pp s an d  ser v ic e s.
+ 
+tc mse tup
+ 
+En a b le /d is ab le T API c li e n t
+ 
+te ln et
+ 
+Co mmu n ic a te  with a  r emo te  mac h in e  usin g T EL NET  p ro to co l
+ 
+tftp
+ 
+T ra n sfe r fil e s t o a n d fro m a  r e mo te ma c h in e  run n in g  T FT P p ro toco l
+ 
+ti me
+ 
+Dis p la y /c h an g e sy ste m t ime
+ 
+ti me o u t
+ 
+De la y  a b a tc h  f ile e x ecu ti o n f o r sp ec if ie d  
+se c on d s
+ 
+ti tl e
+ 
+Ch a n g e  th e te x t o n to p o f CMD win d o w
+ 
+to u ch
+ 
+Ch a n g e  fil e ti me st a mp s
+ 
+tr a ce r pt
+ 
+Pro c e ss e v en t tra c e l o gs a n d g en e ra te  tra ce  ana ly si s r ep o rt
+ 
+tr a ce r t
+ 
+T ra ce  r ou te  to  a r e mo te h o st b y  sendi n g I CMP re q ue st  mes sa g es
+ 
+tr e e
+ 
+Dis p la y a  f o ld e r 
+st ruc ture  i n th e fo rm o f a  gra ph ic a l t ree
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+ts d is co n
+ 
+T e rmin a te  a re mo te d e sk to p c o nn e cti on
+ 
+ts k il l
+ 
+T e rmin a te  a ru nn ing p ro c e ss o n a  RD S e ss io n Ho st  s e rve r
+ 
+ts su tdn
+ 
+S h u td o wn /r eb o ot a  te rmin a l se rv e r re mo tely
+ 
+ty p e
+ 
+S h o w c on tent s of a  te x tfi le
+ 
+ty p ep e r f
+ 
+Wri te  p erf o rma nc e d a ta  t o a  CMD win d o w o r a  l o g f il e
+ 
+tz u til
+ 
+T ime Z o ne  Util ity
+ 
+U
+ 
+u n lo dc tr
+ 
+Re mo v e  p e rfo rma nc e  cou n te r na me s an d  exp la in  te x t fo r a se rv ice fro m 
+th e  reg is try
+ 
+V
+ 
+ver
+ 
+S h o w v e rsi on  n u mbe r of in sta ll ed  OS
+ 
+v e r ify
+ 
+Ve ri fy  whe ther  
+fil e s ar e s a v ed  cor rec tl y o n th e d is k
+ 
+vol
+ 
+S h o w d isk  vol u me  la b e l a n d se ria l nu mb e r
+ 
+v ss a d min
+ 
+S h o w s ha d o w c op y b a ck u p s, in sta lle d  sha do w c o p y wri te rs a n d 
+p ro v id e rs
+ 
+W
+ 
+w3 2 tm
+ 
+Ac c e ss  Wind o ws T imeS e rv ic e  Util ity
+ 
+wa it fo r
+ 
+Use d  t o  syn ch ron iz e e ve n ts  
+b e tween n etwor k ed  c o mp ute r(s)
+ 
+we v tu ti l
+ 
+Re tr ie v e i n fo rma ti on  abo u te v en t lo g s an d p ub li she rs
+ 
+wh e r e
+ 
+Fin d  a nd  d isp lay fi le (s ) i n  t he  cur ren t dir e cto ry
+ 
+wh o a mi
+ 
+Dis p la y  in fo rma tio n a bo u t th e  act ive use r
+ 
+win d if f
+ 
+Co mp a re  c on tent s of two fi les o r s e ts o f 
+fil e s
+ 
+ 
+C M D  ( C O M M A N D  P R O M P T )
+ 
+ 
+win r m
+ 
+Win d o ws Re mo te  Ma nag e me n t
+ 
+win r s
+ 
+Win d o ws Re mo te  She ll
+ 
+wmic
+ 
+Win d o ws Ma n ag e me n tIn st ru me n ta tio n  Comma n d
+ 
+wu a u c lt
+ 
+Win d o ws Up d a te  Age n t t o  down lo ad  n e w upd ate  f ile s
+ 
+X
+ 
+x c a lc s
+ 
+Ch a n g e  ACL s for f ile s an d  fo lder s
+ 
+x c o py
+ 
+Co p y  f il es o r 
+d ire c to ry tr e e s to an o th e r fol de r
+ 
+::
+ 
+Co mme n t
+ 
+ 
+ 

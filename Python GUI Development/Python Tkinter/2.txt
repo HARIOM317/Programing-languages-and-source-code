@@ -1,0 +1,1 @@
+Starlink terminals are designed to beam signals directly to Earth via a network of satellites in low Earth orbit. These satellites have been useful in disaster-hit areas where the existing infrastructure was destroyed.

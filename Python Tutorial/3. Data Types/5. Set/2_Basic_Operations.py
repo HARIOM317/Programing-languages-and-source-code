@@ -1,0 +1,5 @@
+s1 = set([1, 3, 5, 9, 10, 4, 3])
+s2 = s1.union({1,2,3,4,7})
+print("Union is: ", s2)
+s2 = s1.intersection({1,2,3,4,7})
+print("Intersection is: ", s2)
