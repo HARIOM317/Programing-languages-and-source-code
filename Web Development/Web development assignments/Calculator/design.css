@@ -1,0 +1,102 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* for gradient background color */
+    background-image: linear-gradient(rgb(96, 96, 236), rgb(212, 74, 212));
+    /* for center alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    width: 300px;
+    height: 550px;
+    /* background color using background-image property*/
+    background-image: linear-gradient(white, wheat);
+    border-radius: 15px;
+    /* for center alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -10px -5px 40px 0px rgb(0 0 0/40%);
+}
+
+.calc-body {
+    width: 97%;
+    height: 97%;
+    /* for gradient background color */
+    background-image: linear-gradient(rgb(96, 96, 236), rgb(212, 74, 212));
+    border-radius: 15px;
+}
+
+.calc .calc-body .calc-notch {
+    width: 40%;
+    height: 10px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-top: -6px;
+}
+
+.calc .calc-body .calc-display {
+    width: 100%;
+    height: 25%;
+    /* border: 1px solid black; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.calc .calc-body .calc-display input {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    /* for transparent background */
+    background-color: transparent;
+    outline: none;
+    border: none;
+    /* for right align the text */
+    text-align: end;
+}
+
+.calc .calc-body .calc-buttons {
+    width: 100%;
+    height: 74%;
+    /* border: 1px solid black; */
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+::placeholder {
+    /* changing placeholder color */
+    color: white;
+}
+
+.calc .calc-body .calc-buttons .btn {
+    width: 18%;
+    height: 18%;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-left: 13.5px;
+    margin-bottom: 7px;
+    /* 0.2% transparent background */
+    background-color: rgb(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.calc .calc-body .calc-buttons .btn:hover {
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.calc .calc-body .calc-buttons #hoverEffect {
+    background-image: linear-gradient(rgb(128, 90, 231), rgb(195, 77, 216, 0.01));
+}

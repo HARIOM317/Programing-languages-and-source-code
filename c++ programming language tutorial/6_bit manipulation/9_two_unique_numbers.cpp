@@ -9,31 +9,31 @@ int setBit(int n, int pos)
 
 void unique(int arr[], int n)
 {
-    int xorsum = 0;
+    int xor_sum = 0;
     for (int i = 0; i < n; i++)
     {
-        xorsum = xorsum ^ arr[i];
+        xor_sum = xor_sum ^ arr[i];
     }
-    int tempxor = xorsum;
+    int temp_xor = xor_sum;
     int setbit = 0;
     int pos = 0;
     while (setbit != 1)
     {
-        setbit = xorsum & 1;
+        setbit = xor_sum & 1;
         pos++;
-        xorsum = xorsum >> 1;
+        xor_sum = xor_sum >> 1;
     }
-    int newxor;
+    int new_xor;
     for (int i = 0; i < n; i++)
     {
         if (setBit(arr[i], pos - 1))
         {
-            newxor = newxor ^ arr[i];
+            new_xor = new_xor ^ arr[i];
         }
     }
 
-    cout << newxor << endl;
-    cout << (tempxor ^ newxor) << endl;
+    cout << new_xor << endl;
+    cout << (temp_xor ^ new_xor) << endl;
 }
 
 int main()

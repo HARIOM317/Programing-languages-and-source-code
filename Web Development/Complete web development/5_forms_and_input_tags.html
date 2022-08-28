@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms and input tags</title>
+</head>
+
+<body>
+    <!-- FORMS -->
+    <h2>HTML Forms</h2>
+    <!-- let suppose backend.php is a backend file which perform backend action for this form. -->
+
+    <form action="backend.php">
+        div tag is used for division between two entries. We can also use br tag for next line entry.
+
+        <br><br>
+        <!-- label in form -->
+        <label for="name"> Name </label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <!-- Calendar in form -->
+        <div>
+            DOB: <input type="date" name="myDate">
+        </div>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <div>
+            Password: <input type="password" name="myPassword">
+        </div>
+        <!-- Radio button in form-->
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input
+                type="radio" name="myGender">
+        </div>
+        <!-- Check button in form-->
+        <div>
+            I accept all term and conditions <input type="checkbox" name="term_and_condition" checked>
+        </div>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="100" rows="5"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label for="subscribe">Subscription</label>
+            <!-- selection tag -->
+            <select name="mySubscription" id="subscribe">
+                <option value="week"> Weekly </option>
+                <option value="month" selected> Monthly </option>
+                <option value="year"> Annual </option>
+            </select>
+        </div>
+        <br>
+        <!-- buttons in form.  -->
+        <div>
+            <!-- Submit button in form -->
+            <input type="submit" value="Submit form">
+            <!-- reset button in form -->
+            <input type="reset" value="Reset now">
+        </div>
+
+    </form>
+</body>
+
+</html>

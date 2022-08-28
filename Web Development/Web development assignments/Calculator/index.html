@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calc">
+            <div class="calc-body">
+                <div class="calc-notch">
+
+                </div>
+                <div class="calc-display">
+                    <input type="text" id="result" placeholder="00">
+                </div>
+                <div class="calc-buttons">
+                    <!-- Creating all buttons -->
+                    <button class="btn" onclick="clear_screen()">AC</button>
+                    <button class="btn" onclick="square()">x^2</button>
+                    <button class="btn" onclick="display('%')">%</button>
+                    <button class="btn" onclick="display('/')">/</button>
+                    <button class="btn" onclick="display('7')">7</button>
+                    <button class="btn" onclick="display('8')">8</button>
+                    <button class="btn" onclick="display('9')">9</button>
+                    <button class="btn" onclick="display('*')">x</button>
+                    <button class="btn" onclick="display('4')">4</button>
+                    <button class="btn" onclick="display('5')">5</button>
+                    <button class="btn" onclick="display('6')">6</button>
+                    <button class="btn" onclick="display('-')">-</button>
+                    <button class="btn" onclick="display('1')">1</button>
+                    <button class="btn" onclick="display('2')">2</button>
+                    <button class="btn" onclick="display('3')">3</button>
+                    <button class="btn" onclick="display('+')">+</button>
+                    <!-- inline css for increasing it's width -->
+                    <button style="width: 42%; border-radius: 25px;" class="btn" onclick="display('0')">0</button>
+                    <button class="btn" onclick="display('.')">.</button>
+                    <button class="btn" id="hoverEffect" onclick="ans()">=</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- linking js file -->
+    <script src="logic.js"></script>
+</body>
+
+</html>

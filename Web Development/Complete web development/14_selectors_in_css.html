@@ -1,0 +1,79 @@
+<!-- 
+    -> CSS selectors are used to find the element whose property will be set.
+    -> Selectors are used to target the html elements.
+    -> Selectors makes it easy for us to easily target single/multiple HTML elements in the markup.
+
+    Types of basic css selectors:
+
+    1. CSS element selector
+    2. CSS id selector
+    3. CSS class selector
+    4. CSS grouping selector
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* element selector */
+        p {
+            color: deeppink;
+            border: 1px solid darkblue;
+        }
+
+        /* ID selector */
+        #dodgerblueElement {
+            color: dodgerblue;
+        }
+
+        /* Class selector */
+        .chartreuseElement {
+            color: chartreuse;
+            background-color: black;
+        }
+
+        /* Grouping selector */
+        footer,
+        span {
+            background-color: beige;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h3>CSS Selectors:</h3>
+
+    <!-- Applying element selector -->
+    <p>
+        This is a simple paragraph to demonstrate css selectors.
+    </p>
+
+    <!-- Applying id selector -->
+    <p id="dodgerblueElement">
+        This is another paragraph.
+    </p>
+
+    <!-- Applying class selector -->
+    <p class="chartreuseElement">
+        This is the new paragraph.
+    </p>
+
+    <!-- Applying group selector -->
+    <span>
+        This is span.
+    </span>
+    <!-- Applying group selector -->
+    <footer>This is the footer.</footer>
+
+</body>
+
+</html>

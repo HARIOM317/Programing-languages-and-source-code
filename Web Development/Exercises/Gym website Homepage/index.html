@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSR fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Abel&family=PT+Serif&family=Titillium+Web:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+
+<body>
+
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="css/Images/logo.png" alt="">
+            <div>HSR Fitness</div>
+        </div>
+        <!-- Mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Fitness</a></li>
+                <li> <a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Login</button>
+            <button class="btn">Registration</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the best gym in Ashta</h1>
+        <form action="backendFile.php">
+            <div class="form-group">
+                <input type="text" name="myName" placeholder="Enter your name">
+                <input type="number" name="myAge" placeholder="Enter your age">
+                <input type="number" name="myWeight" placeholder="Enter your weight">
+                <input type="email" name="myEmail" placeholder="Enter your email">
+                <input type="number" name="myNumber" placeholder="Enter your mobile number">
+                <input type="date" name="myDOB" placeholder="Enter your DOB">
+
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .container {
+            width: 700px;
+            border: 2px groove black;
+            border-radius: 10px;
+            margin: auto;
+            /* Automatic center alignment container class box */
+        }
+
+        .item {
+            border: 1px solid darkblue;
+            border-radius: 5px;
+            margin: 12px 12px;
+            padding: 10px 10px;
+            background-color: rgb(209, 198, 198);
+        }
+
+        #fruits {
+            /* Left floating box */
+            float: left;
+            width: 45%;
+        }
+
+        #computers {
+            /* right floating box */
+            float: right;
+            width: 45%;
+        }
+
+        #stationary {
+            /* IMP */
+            /* No float left item overlap it if we use clear: left; */
+
+            /* No float left and float right item overlap it if we use clear: both; */
+            clear: both;
+            width: 95%;
+        }
+
+        p,
+        h1,
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to my store</h1>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitsPara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet in voluptatum mollitia nemo voluptatem
+                necessitatibus dicta, itaque aut at maxime adipisci quibusdam accusamus veniam dolorem tempora, quisquam
+                sed repudiandae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quod quasi
+                praesentium, earum dolorem repellat quisquam distinctio possimus sit eius. Sunt quo dolores possimus
+                odio? Repudiandae accusamus nihil quia eum est cupiditate odio minus facere porro saepe, voluptate,
+                molestias sequi eos illo nam nobis eveniet, iusto corporis alias quas unde?
+            </p>
+        </div>
+        <div id="computers" class="item">
+            <h3>Computers</h3>
+            <p id="computerPara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet in voluptatum mollitia nemo voluptatem
+                necessitatibus dicta, itaque aut at maxime adipisci quibusdam accusamus veniam dolorem tempora,
+                quisquam sed repudiandae repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                natus ex, exercitationem eaque, officiis consequuntur iure numquam amet quibusdam fugit corrupti,
+                perferendis sapiente aperiam dicta beatae id placeat nulla reprehenderit.
+            </p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationaryPara" class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet in voluptatum mollitia nemo
+                voluptatem necessitatibus dicta, itaque aut at maxime adipisci quibusdam accusamus veniam
+                dolorem tempora, quisquam sed repudiandae repellendus.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

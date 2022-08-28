@@ -1,0 +1,22 @@
+CSS - Cascading Style Sheet:
+                            CSS is used to control the style of a web document in a simple and easy way.
+
+A CSS comprises of style rules that are interpreted by the browser and then applied to the corresponding elements in your document. A style rule is made of three parts −
+
+1. Selector − A selector is an HTML tag at which a style will be applied. This could be any tag like <h1> or <table> etc.
+
+2. Property − A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color, border etc.
+
+3. Value − Values are assigned to properties. For example, color property can have value either red or #F1F1F1 etc.
+
+Syntax −
+selector { property: value }
+
+Ex.-
+p{ color: blue; }
+
+Three ways to add css to the markup:
+
+1. Inline CSS: CSS is added to the elements directly using style attribute.
+2. Internal CSS: CSS is kept inside the head tags in <style> tags.
+3. External CSS: CSS is kept separately inside file(a.css) style sheet.

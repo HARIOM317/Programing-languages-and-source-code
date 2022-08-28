@@ -2,11 +2,13 @@
 
 using namespace std;
 
-int reverse(int n){
+int reverse(int n)
+{
     int ans = 0;
-    while(n>0){
-        int lastDigit = n%10;
-        ans = ans*10 + lastDigit;
+    while (n > 0)
+    {
+        int lastDigit = n % 10;
+        ans = ans * 10 + lastDigit;
         n /= 10;
     }
     return ans;
@@ -59,10 +61,11 @@ int addBinary(int x, int y)
                 prevCarry = 0;
             }
         }
-        else{
-            ans = ans*10 + (x%2);
+        else
+        {
+            ans = ans * 10 + (x % 2);
         }
-        x/=10;
+        x /= 10;
     }
     while (y > 0)
     {
@@ -79,13 +82,15 @@ int addBinary(int x, int y)
                 prevCarry = 0;
             }
         }
-        else{
-            ans = ans*10 + (y%2);
+        else
+        {
+            ans = ans * 10 + (y % 2);
         }
-        y/=10;
+        y /= 10;
     }
-    if(prevCarry==1){
-        ans = ans*10 + 1;
+    if (prevCarry == 1)
+    {
+        ans = ans * 10 + 1;
     }
     ans = reverse(ans);
     return ans;
@@ -98,6 +103,6 @@ int main()
     cin >> x;
     cout << "Enter second binary number:  ";
     cin >> y;
-    cout << addBinary(x, y) << endl;
+    cout << "Ans = " << addBinary(x, y) << endl;
     return 0;
 }

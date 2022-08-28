@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and z-index</title>
+
+    <style>
+        .box {
+            width: 110px;
+            height: 110px;
+            border: 1px solid black;
+        }
+
+        #box1 {
+            background-color: green;
+        }
+
+        #box2 {
+            /* visibility is visible default.
+            visibility: visible;  */
+            visibility: hidden;
+            /* box3 will be hidden if we use visibility hidden but it keep reserves it's empty space*/
+            display: none;
+            /* box3 will be permanently remove if we use display none */
+
+            background-color: red;
+        }
+
+        /* 
+            CSS z-index
+            _________________________________________________________________________
+
+            The z-index property specifies the stack order of an element.
+
+            An element with greater stack order is always in front of an element with a lower stack order.
+
+            Note(IMP): z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+
+            Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
+            
+            Example:
+
+            we will set position: relative of box3 and box4 and set both's top position.
+            */
+
+        #box3 {
+            border: 2.5px solid darkblue;
+            background-color: orange;
+            position: relative;
+            top: 50px;
+            /* The element which has higher g-index value will be up */
+            z-index: 20;
+        }
+
+        #box4 {
+            background-color: yellow;
+            position: relative;
+            top: 20px;
+            /* The element which has lower g-index value will be down */
+            z-index: -5;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- We use $ in id or class for indexing
+    Ex. div.box#box$*4 gives following result -->
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+
+</body>
+
+</html>

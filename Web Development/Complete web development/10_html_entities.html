@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html entities</title>
+</head>
+
+<!-- Character entities are used to display reserved characters in HTML.
+
+Such as :
+__________________________________________
+&nbsp;    -    for non-breaking space
+&lt;      -    for less than
+&gt;      -    for greater than
+&amp;     -    for ampersand (&)
+&quot;    -    for double quotation mark
+&apos;    -    for single quotation mark
+&copy;    -    for copyright
+&reg;     -    for registered trademark
+&euro;    -    for euro
+&pound;   -    for pound
+&yen;     -    for yen
+&cent;    -    for cent
+&#8203;   -    for empty character
+
+etc.
+-->
+
+<body>
+    <div>
+        <!-- Note : We can not use more than one space continuously in html, because html combines all the continuously spaces into one space.  -->
+        <p>This is a paragraph</p>
+    </div>
+    <div>
+        <!-- But we want to use more than one space then we can use html entities (&nbsp;) -->
+        <p>This is another paragraph with &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; space.</p>
+    </div>
+
+    <div>
+        <!-- If we want to show html tags in our website then we can use &lt; (fow lower than symbol) and &gt; (for greater than symbol). -->
+        <p>For writing a paragraph in html we use &lt;p&gt; tag.</p>
+        <p></p>
+    </div>
+
+    <div>
+        pound = &pound; copyright = &copy; registered trademark = &reg; ampersand = &amp and empty character = &#8203;
+    </div>
+
+</body>
+
+</html>

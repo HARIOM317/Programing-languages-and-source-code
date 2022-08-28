@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hight, Width, Border and Background</title>
+
+    <style>
+        #firstPara {
+            color: darkblue;
+            background-color: rgb(0, 238, 255);
+            height: 50px;
+            width: 200px;
+
+            /* We are using all attributes of border in a different line */
+            border-width: 2px;
+            /* border width */
+            border-color: cornflowerblue;
+            /* border color */
+            border-style: outset;
+            /* Border type */
+            border-radius: 5px;
+            /* For rounded corner of box */
+        }
+
+        #secondPara {
+            color: darkblue;
+            background-color: rgb(0, 238, 255);
+            height: 50px;
+            width: 200px;
+
+            /* We are use all attributes of border in a single line */
+            border: 2px groove red;
+            border-radius: 10px;
+        }
+
+        #thirdPara {
+            color: rgb(62, 0, 38);
+            background-color: rgb(238, 255, 0);
+            height: 50px;
+            width: 200px;
+
+            border-top: 2px solid rgb(157, 255, 0);
+            border-left: 2px solid rgb(0, 255, 225);
+            border-right: 2px solid rgb(248, 182, 0);
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        #forthPara {
+            color: rgb(33, 27, 31);
+            height: 200px;
+            width: 200px;
+            /* Use background image */
+            background-image: url('https://images.all-free-download.com/images/graphicwebp/background_beautiful_beauty_272813.webp');
+            border: 2px solid green;
+            background-repeat: no-repeat;
+            background-position: top left;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h3>This is Heading</h3>
+    <p id="firstPara">This is Paragraph</p>
+
+    <h3>This is second Heading</h3>
+    <p id="secondPara">This is second Paragraph</p>
+
+    <h3>This is third Heading</h3>
+    <p id="thirdPara">This is third Paragraph</p>
+
+    <h3>This is forth Heading</h3>
+    <p id="forthPara">This is forth Paragraph</p>
+
+</body>
+
+</html>

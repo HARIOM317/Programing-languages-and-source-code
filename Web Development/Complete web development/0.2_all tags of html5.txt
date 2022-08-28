@@ -1,0 +1,112 @@
+(HTML 5 all tags)
+
+Tags	    Description
+__________________________________________________________________________________________________
+
+1. <!--...-->	    Defines a comment
+2.<!DOCTYPE> 	    Defines the document type
+3.<a>	            Defines a hyperlink
+4. <abbr>	        Defines an abbreviation or an acronym
+5. <address>	    Defines contact information for the author/owner of a document
+6. <area>	        Defines an area inside an image map
+7. <article>	    Defines an article
+8. <aside>	        Defines content aside from the page content
+9. <audio>	        Defines embedded sound content
+10. <b>	            Defines bold text
+11. <base>	        Specifies the base URL/target for all relative URLs in a document
+12. <bdi>	        Isolates a part of text that might be formatted in a different direction from other text outside it
+13. <bdo>	        Overrides the current text direction
+14. <blockquote>	Defines a section that is quoted from another source
+15. <body>	        Defines the document's body
+16. <br>	        Defines a single line break
+17. <button>    	Defines a clickable button
+18. <canvas>    	Used to draw graphics, on the fly, via scripting (usually JavaScript)
+19. <caption>   	Defines a table caption
+20. <cite>	        Defines the title of a work
+21. <code>	        Defines a piece of computer code
+22. <col>	        Specifies column properties for each column within a <colgroup> element 
+23. <colgroup>  	Specifies a group of one or more columns in a table for formatting
+24. <data>	        Adds a machine-readable translation of a given content
+25. <datalist>	    Specifies a list of pre-defined options for input controls
+26. <dd>	        Defines a description/value of a term in a description list
+27. <del>	        Defines text that has been deleted from a document
+28. <details>	    Defines additional details that the user can view or hide
+29. <dfn>	        Specifies a term that is going to be defined within the content
+30. <dialog>	    Defines a dialog box or window
+31. <div>	        Defines a section in a document
+32. <dl>	        Defines a description list
+33. <dt>	        Defines a term/name in a description list
+34. <em>	        Defines emphasized text 
+35. <embed>	        Defines a container for an external application
+36. <fieldset>	    Groups related elements in a form
+37. <figcaption>	Defines a caption for a <figure> element
+38. <figure>	    Specifies self-contained content
+39. <footer>	    Defines a footer for a document or section
+40. <form>	        Defines an HTML form for user input
+41. <h1> to <h6>	Defines HTML headings
+42. <head>	        Contains metadata/information for the document
+43. <header>    	Defines a header for a document or section
+44. <hr>	        Defines a thematic change in the content
+45. <html>	        Defines the root of an HTML document
+46. <i>	            Defines a part of text in an alternate voice or mood
+47. <iframe>	    Defines an inline frame
+48. <img>	        Defines an image
+49. <input>	        Defines an input control
+50. <ins>	        Defines a text that has been inserted into a document
+51. <kbd>	        Defines keyboard input
+52. <label>	        Defines a label for an <input> element
+53. <legend>	    Defines a caption for a <fieldset> element
+54. <li>	        Defines a list item
+55. <link>	        Defines the relationship between a document and an external resource (most used to link to style sheets)
+56. <main>	        Specifies the main content of a document
+57. <map>	        Defines an image map
+58. <mark>	        Defines marked/highlighted text
+59. <meta>	        Defines metadata about an HTML document
+60. <meter>	        Defines a scalar measurement within a known range (a gauge)
+61. <nav>	        Defines navigation links
+62. <noscript>	    Defines an alternate content for users that do not support client-side scripts
+63. <object>    	Defines a container for an external application
+64. <ol>	        Defines an ordered list
+65. <optgroup>  	Defines a group of related options in a drop-down list
+66. <option>    	Defines an option in a drop-down list
+67. <output>    	Defines the result of a calculation
+68. <p>	            Defines a paragraph
+69. <param>	        Defines a parameter for an object
+70. <picture>	    Defines a container for multiple image resources
+71. <pre>   	    Defines preformatted text
+72. <progress>	    Represents the progress of a task
+73. <q>	            Defines a short quotation
+74. <rp>	        Defines what to show in browsers that do not support ruby annotations
+75. <rt>    	    Defines an explanation/pronunciation of characters (for East Asian typography)
+76. <ruby>      	Defines a ruby annotation (for East Asian typography)
+77. <s>	            Defines text that is no longer correct
+78. <samp>	        Defines sample output from a computer program
+79. <script>	    Defines a client-side script
+80. <section>	    Defines a section in a document
+81. <select>	    Defines a drop-down list
+82. <small>	        Defines smaller text
+83. <source>	    Defines multiple media resources for media elements (<video> and <audio>)
+84. <span>	        Defines a section in a document
+85. <strong>	    Defines important text
+86. <style>	        Defines style information for a document
+87. <sub>	        Defines subscripted text
+88. <summary>	    Defines a visible heading for a <details> element
+89. <sup>	        Defines superscripted text
+90. <svg>	        Defines a container for SVG graphics
+91. <table>	        Defines a table
+92. <tbody>	        Groups the body content in a table
+93. <td>	        Defines a cell in a table
+94. <template>  	Defines a container for content that should be hidden when the page loads
+95. <textarea>	    Defines a multiline input control (text area)
+96. <tfoot>	        Groups the footer content in a table
+97. <th>	        Defines a header cell in a table
+98. <thead>	        Groups the header content in a table
+99. <time>	        Defines a specific time (or datetime)
+100. <title>	    Defines a title for the document
+101. <tr>	        Defines a row in a table
+102. <track>	    Defines text tracks for media elements (<video> and <audio>)
+103. <u>	        Defines some text that is unarticulated and styled differently from normal text
+104. <ul>	        Defines an unordered list
+105. <var>	        Defines a variable
+106. <video>	    Defines embedded video content
+107. <wbr>	        Defines a possible line-break

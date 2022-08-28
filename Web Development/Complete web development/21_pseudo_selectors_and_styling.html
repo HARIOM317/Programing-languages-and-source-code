@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selector & more designing</title>
+
+    <style>
+        .container {
+            border: 1.5px solid orange;
+            background-color: rgb(176, 222, 222);
+            border-radius: 10px;
+            padding: 0px 10px 0px 10px;
+            /* Padding in left and right */
+        }
+
+        a {
+            /* Removing underline from read more button using text-decoration */
+            text-decoration: none;
+            color: darkblue;
+        }
+
+        /* Pseudo selectors 
+        Syntax: selector:pseudo selector name
+        Ex: a:hover{}, .btn:active{}, etc.*/
+        a:hover {
+            /* changing font and background color on mouse hover */
+            color: red;
+            background-color: aquamarine;
+        }
+
+        /* working only when your button is visited on valid link. In this case button is visited on google.com */
+        a:visited {
+            color: rgb(146, 0, 146);
+        }
+
+        a:active {
+            /* change color when we press button by active pseudo selector */
+            color: darkgoldenrod;
+        }
+
+        .btn {
+            background-color: rgb(237, 241, 189);
+            padding: 8px;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 50px;
+        }
+
+        .btn:hover {
+            color: red;
+            background-color: aquamarine;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis deleniti dolorem pariatur sed blanditiis
+            laboriosam ad est animi sit corporis ratione aliquam nemo, omnis necessitatibus esse enim iure voluptas ipsa
+            totam eveniet perferendis quae quasi. Maiores voluptatem molestias expedita, earum ratione, facilis
+            aspernatur quibusdam, dignissimos totam deleniti perferendis blanditiis molestiae!</p>
+        <a href="https://google.com" class="btn">Google search</a>
+        <button class="btn">Contact us</button>
+
+    </div>
+
+</body>
+
+</html>

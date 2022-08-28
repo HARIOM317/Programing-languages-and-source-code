@@ -13,10 +13,10 @@ public:
         this->name = n;
         this->salary = s;
     }
-        void printDetaile()
-        {
-            cout << "the name of our first employee is " << this->name << " and his salary is " << this->salary << endl;
-        }
+    void printDetaile()
+    {
+        cout << "the name of our first employee is " << this->name << " and his salary is " << this->salary << endl;
+    }
 };
 
 int main()

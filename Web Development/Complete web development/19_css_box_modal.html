@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+CSS box modal:
+margin -> border -> padding -> element
+ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box modal in css</title>
+
+    <style>
+        /* Universal selector */
+        * {
+            /* Now color will be same for all elements */
+            color: red;
+            /* We can overwrite padding and margin */
+            padding: 10px;
+            margin: 0px;
+        }
+
+        .container {
+            /* Cannot change foreground color because universal selector applying red color. */
+            color: green;
+            background-color: rgb(255, 255, 105);
+            border: 1px solid rgb(160, 0, 163);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+            width: 300px;
+            /* Now box size = border box */
+            box-sizing: border-box;
+        }
+
+        .container2 {
+            background-color: rgb(255, 255, 219);
+            border: 1px solid rgb(169, 0, 110);
+            padding-top: 20px;
+            padding-left: 20px;
+            margin-right: 20px;
+            margin-left: 20px;
+            border-radius: 20px;
+        }
+
+        .container3 {
+            background-color: rgb(174, 174, 147);
+            border: 1px solid rgb(103, 0, 105);
+            padding: 20px 20px 20px 20px;
+            /* padding : top right bottom left */
+            margin: 20px 20px 20px 20px;
+            /* margin : top right bottom left */
+            border-radius: 20px;
+        }
+
+        .container4 {
+            background-color: rgb(249, 146, 250);
+            border: 1px solid rgb(0, 0, 0);
+            padding: 50px 100px;
+            /* padding : top = bottom and left = right */
+            margin: 50px 100px;
+            /* margin : top = bottom and left = right */
+            border-radius: 20px;
+        }
+
+        body {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is my first heading</h3>
+        <p class="first">This is my first paragraph.</p>
+    </div>
+
+    <div class="container2">
+        <h3>This is my second heading</h3>
+        <p class="second">This is my second paragraph.</p>
+    </div>
+
+    <div class="container3">
+        <h3>This is my third heading</h3>
+        <p class="third">This is my third paragraph.</p>
+    </div>
+
+    <div class="container4">
+        <h3>This is my forth heading</h3>
+        <p class="third">This is my forth paragraph.</p>
+    </div>
+</body>
+
+</html>

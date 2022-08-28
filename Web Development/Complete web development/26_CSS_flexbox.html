@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+    * Flexbox is one-dimensional layout method for laying out items in rows or columns.
+    * CSS flexbox is a better way to align items into a container.
+    * Flexbox = flexible + box
+ -->
+
+<!-- 
+    CSS Flexbox Layout Module:
+    It is a layout model that provides an easy and clean way to arrange items within a container. Flexbox can be useful for creating small-scales layouts & is responsive and mobile-friendly.
+
+    Before the Flexbox Layout module, there were four layout modes:
+
+    1. Block: for sections in a webpage
+    2. Inline: for text
+    3. Table: for two-dimensional table data
+    4. Positioned: for explicit position of an element
+
+    The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+
+    There are 2 main components of the Flexbox:
+
+    1. Flex Container: The parent “div” which contains various divisions is called a flex container.
+
+    2. Flex Items: The items inside the container “div” are flex items.
+  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+
+    <style>
+        .container {
+            height: 800px;
+            width: 100%;
+            border: 2px solid darkblue;
+            /* Initializing the container as a flexbox */
+            display: flex;
+
+            /*  ***** FLEX PROPERTIES FOR A FLEX CONTAINER*****  */
+
+
+
+            /* FLEX DIRECTION PROPERTY */
+
+            /* (row is default value of flex-direction) (It starts from first index in row) */
+            /* flex-direction: row; */
+
+            /* (It starts from first index in column) */
+            /* flex-direction: column; */
+
+            /* (It starts from last index in row) */
+            /* flex-direction: row-reverse; */
+
+            /* (It starts from last index in column) */
+            /* flex-direction: column-reverse; */
+
+
+
+            /* FLEX WRAP PROPERTY */
+
+            /* flex-wrap is by default no wrap
+            wrap elements are wrapped in responsive mode. (flex-direction should be row for batter wrap which is default) */
+            /* flex-wrap: wrap; */
+
+            /* wrapped elements in reverse (bottom to top) */
+            /* flex-wrap: wrap-reverse; */
+
+
+            /* flex direction and flex wrap in one statement */
+            /* flex-flow: row-reverse wrap; */
+
+
+
+            /* JUSTIFYING PROPERTY FOR HORIZONTAL DIRECTION */
+
+            /* for centre all elements */
+            /* justify-content: center; */
+
+            /* for equal space between two elements and no space in starting and ending corner */
+            /* justify-content: space-between; */
+
+            /* for equal space between two elements including starting and ending corner */
+            /* justify-content: space-evenly; */
+
+            /* for equal space in left and right in each elements */
+            /* justify-content: space-around; */
+
+
+
+            /* ALIGN ITEMS PROPERTY FOR VERTICAL DIRECTION*/
+
+            /* 1. for vertically center all item (It is a big challenge in css without using this property) */
+            /* align-items: center; */
+
+            /* 2. set item in bottom */
+            /* align-items: flex-end; */
+
+            /* 3. set item in top (default) */
+            /* align-items: flex-start; */
+
+            /* 4. set item in top and create equally space in between two items */
+            /* align-items: stretch; */
+        }
+
+        .item {
+            width: 50px;
+            height: 50px;
+            background-color: tomato;
+            border: 2px solid rgb(128, 0, 255);
+            margin: 10px;
+            padding: 5px;
+        }
+
+        /*  ***** FLEX PROPERTIES FOR THE FLEX ITEMS *****  */
+
+        /* 
+        flex properties are:
+        1. order
+        2. flex-grow
+        3. flex-shrink
+        4. flex-basis
+        5. align-self
+        etc.
+        */
+
+        #item1 {
+            /* which item order is maximum will go in end */
+            order: 2;
+
+            /* which item have max flex-grow property, then that will grow higher and consume more space 
+            
+            Note: negative numbers are invalid in flex-grow */
+            /* flex-grow: 2; */
+
+            /* The item that has the highest flex-shrink value will have the most shrink. */
+            flex-shrink: 4;
+
+            /* We can control item size using flex-basis property 
+            
+            NOTE:
+            when flex-direction is set to row then flex-basis will control width
+            
+            when flex-direction is set to column then flex-basis will control height
+            */
+            flex-basis: 100px;
+        }
+
+        #item2 {
+            order: 5;
+
+            /* flex-grow: 3; */
+
+        }
+
+        #item3 {
+            /* go in end of the items because of max order */
+            order: 20;
+            /* item goes in the end of the flex */
+            align-self: flex-end;
+            /* item goes in the start of the flex */
+            align-self: flex-start;
+            /* item goes in the center of the flex */
+            align-self: center;
+        }
+
+        #item4 {
+            order: 1;
+
+            /* writing flex-grow, flex-shrink, and flex basis in a single statement */
+            flex: 0 2 200px;
+        }
+
+        #item5 {
+            /* go in start of the items because of min order */
+            order: -2;
+            flex-shrink: 2;
+        }
+
+        #item6 {
+            order: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Flexbox</h3>
+    <div class="container">
+        <div class="item" id="item1">First box</div>
+        <div class="item" id="item2">Second box</div>
+        <div class="item" id="item3">Third box</div>
+        <div class="item" id="item4">Forth box</div>
+        <div class="item" id="item5">Fifth box</div>
+        <div class="item" id="item6">Sixth box</div>
+    </div>
+</body>
+
+</html>

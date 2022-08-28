@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+CSS Position:
+The CSS position property is used to set position for an element. it is also used to place an element behind another and also useful for scripted animation effect.
+
+You can position an element using the top, bottom, left and right properties. These properties can be used only after position property is set first. A position element's computed position property is static, relative, absolute, fixed or sticky.
+
+Let's have a look at following CSS positioning:
+
+1. Static (default)
+2. Fixed
+3. Relative
+4. Absolute
+5. sticky
+
+1) CSS Static Positioning
+This is a by default position for HTML elements. It always positions an element according to the normal flow of the page. It is not affected by the top, bottom, left and right properties.
+
+2) CSS Fixed Positioning
+The fixed positioning property helps to put the text fixed on the browser. This fixed test is positioned relative to the browser window, and doesn't move even you scroll the window.
+
+3) CSS Relative Positioning
+The relative positioning property is used to set the element relative to its normal position.
+
+4) CSS Absolute Positioning
+The absolute positioning is used to position an element relative to the first parent element that has a position other than static. If no such element is found, the containing block is HTML.
+With the absolute positioning, you can place an element anywhere on a page.
+
+5) CSS Sticky Positioning: Element with position: sticky and top: 0 played a role between fixed & relative based on the position where it is placed. If the element is placed at the middle of the document then when the user scrolls the document, the sticky element starts scrolling until it touches the top. When it touches the top, it will be fixed at that place in spite of further scrolling. We can stick the element at the bottom, with the bottom property.
+ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            border: 1px solid darkblue;
+            background-color: bisque;
+            height: 4000px;
+        }
+
+        .box {
+            /* all boxes in a single line with same property */
+            display: inline-block;
+            border: 1px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+
+        /* Position in CSS 
+        There are many types of position are available in CSS like:
+        position:static, absolute, relative, fixed, sticky etc.
+        */
+
+        #box1 {
+            /* relative: relative to its normal position and will leave a gap at its normal position. */
+
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+        #box2 {
+            /* absolute: relative to the position of its first parent*/
+
+            position: absolute;
+            top: 150px;
+            left: 150px;
+        }
+
+        #box3 {
+            /* fixed:  position of element relative to the browser window*/
+            position: fixed;
+            right: 5px;
+            bottom: 2px;
+
+        }
+
+        #box4 {
+            position: sticky;
+            top: 50px;
+            left: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">Relative box</div>
+        <div class="box" id="box2">Absolute box</div>
+        <div class="box" id="box3">Fixed box</div>
+        <div class="box" id="box4">Sticky box</div>
+    </div>
+</body>
+
+</html>

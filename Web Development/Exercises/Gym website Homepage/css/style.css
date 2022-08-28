@@ -1,0 +1,115 @@
+/*  Resetting CSS*/
+body {
+    font-family: 'Abel', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('Images/background.jpg');
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    /* border: 1px solid red; */
+}
+
+.mid {
+    display: block;
+    width: 55%;
+    /* for center do margin auto of any content*/
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 23px;
+}
+
+.navbar li a.active {
+    color: rgb(207, 38, 38);
+    text-decoration: underline;
+}
+
+.left img {
+    width: 80px;
+    /* convert black image into white and white into black using invert function in css */
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+
+.btn {
+    margin: 0px 10px;
+    color: black;
+    background: #bbb7b8;
+    padding: 3px 10px;
+    border: 1.5px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: lightgray;
+    color: rgb(55, 35, 35);
+}
+
+.container {
+    border: 2px solid rgb(174, 244, 244);
+    margin: 25px 20px;
+    padding: 20px 20px;
+    width: 35%;
+    border-radius: 10px;
+}
+
+.form-group input {
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    width: 250px;
+    padding: 5px;
+    border: 1px solid gold;
+    margin: 8px auto;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group button {
+    display: block;
+    width: 25%;
+    margin: auto;
+    background-color: lightgreen;
+    border: 2.5px solid greenyellow;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.form-group button:hover {
+    background-color: greenyellow;
+}
