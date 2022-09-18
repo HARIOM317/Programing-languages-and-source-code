@@ -1,0 +1,35 @@
+We can use different mongoDB commands for different works and query our data using filters:
+
+1. Inserting data in mongoDB
+use Hariom = creating new database with name Hariom and switch into it.
+
+2. Creating collections
+db.items.insertOne({name: "Samsung 30s", price: "Rs. 20000", rating: 4.5, qty:500, sold: 120}) = create a collection of name items and inserting a document inside this.
+
+3. Inserting multiple document in collection
+db.items.insertMany([{name: "Samsung 30s", price: "500 $", rating: 4.5, qty: 500, sold: 120}, {name: "iphone 13 pro", price: "1500 $", rating: 4.7, qty: 500, sold: 70}, {name: "Oppo f21 pro", price: "400 $", rating: 4.6, qty: 600, sold: 242}]) = insert all objects in items collection.
+
+4. Show all documents with it's all data
+db.items.find() = show data of documents with it's unique id.
+
+5. query the database using filter
+db.items.find({rating: 4.6}) = show the objects which rating are 4.6
+
+6. use greater then or equal to condition in query
+db.items.find({rating: {$gte: 3.5}}) = show all objects which rating is more then or equal to 3.5
+
+Note: a) gt: greater then
+      b) gte: greater then equal to
+      c) lt: less then 
+      d) lte: less then equal to
+    
+7. use and operator (we use ',' for and operator in mongoDB)
+db.items.find({rating: {$gt: 4.5}, qty:{$gt: 500}}) = show objects which rating is greater then 4.5 and qty is greater then 500.
+
+8. use or operator (we use "$or[{condition1}, {condition2}, {condition3}])" for or operator)
+db.items.find({$or:[{rating: {$gt: 4.5}}, {qty:{$gt: 500}}]}) = show objects which rating is greater then 4.5 or qty is greater then 500.
+
+9. use projection in query
+a) db.items.find({rating: {$gt: 3.5}}, {name: 1}) = show only name of those objects which rating is greater then 3.5
+b) db.items.find({rating: {$gt: 3.5}}, {name: 1, price:1}) = show only name and price of those objects which rating is greater then 3.5
+

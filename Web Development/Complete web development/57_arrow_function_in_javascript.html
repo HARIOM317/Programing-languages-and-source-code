@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow functions</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>arrow functions in javascript</h3>
+    </div>
+
+    <script>
+        // arrow function - this is the shortcut for defining a function which ar called arrow functions.
+        let greet = () => {
+            console.log("Good Morning!");
+        }
+        greet();
+
+
+        // arrow function in setTimeOut
+        setTimeout(() => {
+            console.log("Hariom Singh Rajput")
+        }, 3000);
+
+
+        // arrow function with arguments
+        let sum = (a, b) => {
+            return a + b;
+        }
+        console.log("Sum = ", sum(25, 10));
+
+        // short hand
+        let product = (a, b) => a * b;
+        console.log("Product = ", product(20, 10));
+        let square = n => n * n;
+        console.log("Square = ", square(5));
+
+
+        // arrow function in for-each loop
+        let obj = {
+            greeting: "Good Morning! ",
+
+            names: ["Hariom", "Abhishek", "Ankit", "Shubham", "manish"],
+
+            speak() {
+                this.names.forEach((student) => {
+                    // this.greeting points it's parent greeting object if we use arrow function only (not function) and this is called lexical this.
+                    console.log(this.greeting + "Hello dear, " + student);
+                });
+            }
+        }
+        // calling speak function
+        obj.speak();
+
+    </script>
+</body>
+
+</html>

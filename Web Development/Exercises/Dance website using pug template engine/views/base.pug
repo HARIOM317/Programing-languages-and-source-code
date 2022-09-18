@@ -1,0 +1,34 @@
+//- TEMPLATE INHERITANCE
+
+//- Creating a template so that we can use it in multiple different file and we can set it's some property as default which will be same in all files
+
+doctype html 
+html 
+    head 
+        title HSR Dance Academy
+        block scripts 
+        block style
+    body 
+        //- set navbar in base.pug as default so that it will show in all file and it will same
+
+        //- nav with navbar id
+        nav#navbar 
+            ul
+                div#logo
+                    img(src="/static/logo.png")
+                //- anchor tag inside li
+                li #[a(href="/") Home]
+                li #[a(href="/") Services]
+                li #[a(href="/") Dancing hub] 
+                li #[a(href="/") Class info] 
+                li #[a(href="/") About]
+                li #[a(href="/contact") Contact us]
+
+        //- The content block will different in all files
+        block content
+
+        //- set footer in base.pug because it will same in all sections like (Home, Services, About, Contact us .. etc.)
+        footer#footer 
+            | Copyright © 2022 HSR-dance-academy.com  
+            div www.support.hsr.com  
+            a(href="/")  Contact us 

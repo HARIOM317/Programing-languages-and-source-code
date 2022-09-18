@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings in javascript</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Creating content using javascript -->
+        <div id="content"></div>
+        <h1>My heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fuga laborum veritatis odit inventore.
+            Repellendus excepturi odit distinctio tempore, culpa laborum error! Praesentium, maxime hic ratione
+            asperiores excepturi error in saepe esse quod inventore molestias reprehenderit libero iure recusandae
+            facilis autem qui illo! Repellendus architecto corporis sit, quod soluta tempora et at in libero possimus
+            repellat, dolorem voluptate suscipit velit.</p>
+    </div>
+
+    <script>
+        var str = 'Hello ';
+        var name = "hariom";
+
+        // string operations
+        console.log(str + name);
+
+        // We can write single and double quot using this syntax
+        var temp = `${str}, "I am Hariom" and i don't want to tell something more about me.`;
+        console.log(temp);
+
+        var len = name.length;
+        console.log(`Length of name is: \n\t${len}`)
+
+        // Creating content using javascript
+        document.getElementById('content').innerHTML = '<h1>This is the content using js</h1>'
+    </script>
+</body>
+
+</html>

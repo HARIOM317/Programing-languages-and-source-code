@@ -1,0 +1,52 @@
+doctype html 
+html 
+    head 
+        title HSR Dance Academy
+        style 
+            include ../static/style.css 
+    body 
+        //- nav with navbar id
+        nav#navbar 
+            ul
+                div#logo
+                    img(src="/static/logo.png")
+                //- anchor tag inside li
+                li #[a(href="/") Home]
+                li #[a(href="/") Services]
+                li #[a(href="/") Dancing hub] 
+                li #[a(href="/") Class info] 
+                li #[a(href="/") About]
+                li #[a(href="/") Contact us]
+        
+        section#introSection 
+            div  Welcome to HSR dance academy
+            div.small  Eat Sleep and Dance Repeat 
+            div.little  Any Body Can dance 
+
+        section#missionSection 
+            h3 Our Missions
+            div.card 
+                h4 Dance Perfection
+                p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sapiente harum, dolorem numquam repellat doloremque quas autem nisi repudiandae vel fugiat nulla, alias est quisquam consectetur! Possimus maiores accusamus exercitationem.
+            div.card 
+                h4 Dance The Way You Like
+                p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sapiente harum, dolorem numquam repellat doloremque quas autem nisi repudiandae vel fugiat nulla, alias est quisquam consectetur! Possimus maiores accusamus exercitationem.
+            div.card 
+                h4 Expert Teaching
+                p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sapiente harum, dolorem numquam repellat doloremque quas autem nisi repudiandae vel fugiat nulla, alias est quisquam consectetur! Possimus maiores accusamus exercitationem.
+        
+        section#sponsorSection 
+            h3 Our Sponsors
+            div#sponsors
+                img(src="/static/sponsors/logo1.png", alt="Sponsor Image", Class="spImage")
+                img(src="/static/sponsors/logo2.png", alt="Sponsor Image", Class="spImage", id="myColor")
+                img(src="/static/sponsors/logo3.png", alt="Sponsor Image", Class="spImage")
+                img(src="/static/sponsors/logo4.png", alt="Sponsor Image", Class="spImage")
+
+        footer#footer 
+            | Copyright © 2022 HSR-dance-academy.com  
+            div www.support.hsr.com  
+            a(href="/")  Contact us 
+
+        script 
+            include ../static/script.js 

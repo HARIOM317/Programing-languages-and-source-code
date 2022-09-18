@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Math Objects</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Math Object</h1>
+    </div>
+
+
+    <script>
+        let m = Math;
+        // show all math functions/objects
+        console.log(m);
+
+        // Printing the constants from Math objects
+        console.log("The value of Math.E = ", Math.E);
+        console.log("The value of Math.PI = ", Math.PI);
+        console.log("The value of Math.LN2 = ", Math.LN2);
+        console.log("The value of Math.LOG10E = ", Math.LOG10E);
+        console.log("The value of Math.LOG2E = ", Math.LOG2E);
+        console.log("The value of Math.SQRT1_2 = ", Math.SQRT1_2);
+        console.log("The value of Math.SQRT2 = ", Math.SQRT2);
+
+
+        // Printing the functions from Math objects
+        let a = 43.878;
+        let b = 65.09;
+
+        console.log("The value of a and b is : ", a, " and ", b);
+        // round
+        console.log("The value of rounded a and b is : ", Math.round(a), " and ", Math.round(b));
+        // power and square root
+        console.log("3 raised to the power of 4 is : ", Math.pow(3, 4));
+        console.log("Square root of 59 is : ", Math.sqrt(59));
+        // ceil and floor
+        console.log("5.8 rounded up to nearest integer is : ", Math.ceil(5.8));
+        console.log("5.8 rounded down to nearest integer is : ", Math.floor(5.8));
+        // abs function - returns absolute value
+        console.log("Absolute value of -5.67 is : ", Math.abs(-5.67));
+        // trigonometric functions
+        console.log("The value of sin(pi/2) is : ", Math.sin(Math.PI / 2));
+        console.log("The value of cos(pi/2) is : ", Math.cos(Math.PI / 2));
+        console.log("The value of tan(pi/2) is : ", Math.tan(Math.PI / 2));
+        // min ans max functions
+        console.log("Minimum value of  8, 5, 9, 34, 21 and 11 is : ", Math.min(8, 5, 9, 34, 21, 11));
+        console.log("Maximum value of  8, 5, 9, 34, 21 and 11 is : ", Math.max(8, 5, 9, 34, 21, 11));
+        // log functions
+        console.log("The value of log2 is : ", Math.log(2));
+        console.log("The value of log10_2 is : ", Math.log10(2));
+        console.log("The value of log2_2 is : ", Math.log2(2));
+
+        // Generating a random number
+        let r = Math.random();
+        console.log("The random number between 0-1 is : ", r);
+        // Random number between (a, b) = a+(b-a)*Math.random();
+        let r_0_100 = 1 + (100 - 1) * Math.random();
+        console.log("The random number between 1-100 is : ", r_0_100);
+        console.log("The integer random number between 1-100 is : ", Math.round(r_0_100));
+    </script>
+</body>
+
+</html>

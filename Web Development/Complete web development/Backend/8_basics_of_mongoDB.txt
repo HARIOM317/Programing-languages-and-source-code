@@ -1,0 +1,54 @@
+* What is MongoDB?
+Ans - 1. This is a No SQL Database.
+2. Document oriented.
+3. Open-source, cross-platform, document-oriented database written in c++.
+4. Salient features:
+    * Develop Faster
+    * Deploy Easier
+    * Scale Bigger
+5. MongoDB development started in 2007 and released in 2014.
+________________________________________________________________
+
+* What is Document Oriented database?
+Ans - MongoDB stores data as documents, so it is known as document oriented database.
+
+ex.- 
+contact document{
+    _id: <ObjectId2>,
+    user_id: <ObjectId1>,
+    phone: "123-456-7890",
+    email: "xyz@example.com"
+}
+
+RDBMS vs MongoDB:
+
+* Database - Database
+* tables - Collections
+* Rows - Documents
+________________________________________________________________
+
+Note :
+1. mongod is the host process for the database.
+2. mongo is the command-line shell that connects to a specific instance of mongod.
+3. When you run mongo with no parameters it defaults to connecting to the localhost on port 27017.
+4. If you run mongo against an invalid host_machine:port combination then it will fail to connect.
+5. mongo automatically store and save the data of database in directory which command we run. it means we can access our data after closing the server/ restart the server also.
+________________________________________________________________
+
+Note: Add the path of mongo-shell and mongod (bin folder) in environment variable.
+
+Note: MongoShell should be connected from mongod to use all commands and create database.
+
+for connecting to each-other:
+step-1: Open powerShell and type "mongod"
+step-2: Open powerShell again in another window and type "mongo"
+
+Now both are connected.
+
+MONGO DB COMMANDS:
+1. db - by default test database
+2. use database_name - create new database and switch into them.
+3. dp.help - help
+4. show dbs - show all databases
+5. db.text.insert({}) - insert document.
+6. show collections - show collections of selected database.

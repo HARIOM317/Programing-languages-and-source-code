@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Combo&family=Crimson+Text:ital,wght@1,600&family=Ms+Madi&family=Poppins:wght@300&family=Rampart+One&family=Roboto+Condensed:wght@300&family=Stint+Ultra+Condensed&display=swap');
+
+.container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin: 15px;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 35px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    padding: 8px;
+    width: 40%;
+    margin: 10px;
+    border: 1.5px solid #99120a;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+
+.btn{
+    padding: 10px 24px;
+    font-size: 18px;
+    margin: 10px;
+    background-color: #37fe37;
+    border: 1px solid green;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #73ff00;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript string functions</title>
+</head>
+
+<body>
+    <script>
+        var str = "This is a string";
+        console.log(str);
+
+        // >>>>> String functions <<<<<
+
+        // indexOf : It gives first occurence of a substring.
+        var position = str.indexOf('is');
+        console.log("First index of is in given string : ", position);
+
+
+        // lastIndexOf : It gives last occurence of a substring.
+        position = str.lastIndexOf('is');
+        console.log("Last index of is in given string : ", position);
+
+
+        // Substring of a string from position n1 to n2.
+        // 1. Using slice method 
+        var substr = str.slice(1, 7);
+        console.log("Substring 'Using slice' from index 1 to 7 is: ", substr);
+        // 2. Using substring method
+        substr = str.substring(0, 4);
+        console.log("Substring 'Using substring' from index 0 to 4 is: ", substr);
+        // Note: slice can take negative value also but substring cannot 
+        // 3. Using substr method
+        var substr2 = str.substr(2, 8);
+        console.log("Substring 'Using substr' from index 2 to 8 is: ", substr2);
+
+
+        // replaced : Replace old string from new string.
+        var replaced = str.replace("string", "new string");
+        console.log("After replacing new string is: ", replaced);
+
+
+        // toUpperCase/toLowerCase : converting string into uppercase or lowercase.
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+
+        // concat : Concat (join) two strings.
+        var newString = str.concat(" after concat");
+        console.log(newString);
+
+
+        // trim : remove white-spaces from starting and ending of the string.
+        var strWithWhiteSpaces = "     This contains        white-spaces            ";
+        console.log(strWithWhiteSpaces.trim());
+
+
+        // CharAt : Extract character from given string by index number.
+        var myChar = str.charAt(2);
+        console.log(myChar);
+
+
+        // CharCodeAt : Returns character ASCII code of given index number.
+        myChar = str.charCodeAt(8);
+        console.log(myChar);
+    </script>
+</body>
+
+</html>

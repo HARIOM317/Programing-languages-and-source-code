@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After pseudo selectors</title>
+
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header::before {
+            content: "";
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            /* setting opacity of image */
+            opacity: 0.3;
+        }
+
+        .navigation {
+            font-size: 20px;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 30px 25px;
+        }
+
+        section {
+            height: 300px;
+            /* border: 1px solid gold; */
+            display: flex;
+            flex-direction: column;
+            margin: 5px 200px;
+            /* horizontally center */
+            align-items: center;
+            /* vertically center */
+            justify-content: center;
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+
+        /* Before pseudo selector */
+        section::before {
+            /* adding this content before the section */
+            content: "This is new content before section";
+        }
+
+        /* After pseudo selector */
+        section::after {
+            /* adding this content after the section */
+            content: "This is new content after section";
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h3>Welcome to coding world</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo cumque atque suscipit harum libero, in,
+            ducimus, autem esse ratione qui ipsum! Explicabo quam doloribus libero sequi sapiente ducimus, dicta nam
+            tempore laudantium autem placeat vel impedit! Laboriosam iste in inventore?</p>
+    </section>
+    <hr>
+</body>
+
+</html>

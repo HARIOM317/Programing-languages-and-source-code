@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- DOM : Document Object Module -->
+<!-- 
+    We have available many types of selector, such as-
+    1. document.getElementById 
+    2. document.getElementByClassName 
+    3. document.getElementByTagName 
+    4. document.getElementByName 
+    5. document.querySelector 
+    6. document.querySelectorAll 
+    etc.
+ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating DOM</title>
+</head>
+
+<body>
+    <div id="main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>More about us</li>
+            <li>Contact us</li>
+        </ul>
+    </div>
+
+    <script>
+        // Navigating DOM using id
+        // Now we can change our inner HTML code also using : idName.innerHTML = "html code";
+        let main = document.getElementById('main');
+        console.log(main);
+        let nav = document.getElementById('nav');
+        console.log(nav);
+
+        // Navigating DOM using class
+        // Note: We can index it like array in js console i.e. container[0], container[1], ... so on.
+        let container = document.getElementsByClassName('container');
+        console.log(container);
+
+        // We can also use css selectors for selecting the element.
+        // Note: It returns the first block of elements which class is container
+        let sel = document.querySelector('.container');
+        console.log("Selector returns ", sel);
+
+        let sel2 = document.querySelector('#nav');
+        console.log("Selector returns ", sel2);
+
+        let sel3 = document.querySelector('#nav>li');
+        console.log("First element of li ", sel3);
+
+        // querySelectorAll : It returns all elements of selector
+        // we can manipulate it using: sel4[index_number] = "NewName";
+        let sel4 = document.querySelectorAll('#nav>li');
+        console.log("All element of li ", sel4);
+    </script>
+</body>
+
+</html>

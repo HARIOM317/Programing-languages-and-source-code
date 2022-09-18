@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and Text shadow</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .card {
+            padding: 25px 15px;
+            margin: 20px 10px;
+            border: 1.5px solid red;
+            border-radius: 10px;
+            background-color: aquamarine;
+
+            /* ----- BOX SHADOW ----- */
+            /* shadow in top and left */
+            box-shadow: 10px 10px gray;
+
+            /* shadow in bottom and right */
+            box-shadow: -10px -10px gray;
+
+            /* blur radius shadow */
+            box-shadow: 7px 5px 15px rgba(0, 0, 0, 0.7);
+            /* NOTE: rgba means - red green blue alpha and alpha defines opacity of color */
+
+            /* spread radius shadow */
+            box-shadow: 7px 5px 18px 5px gray;
+
+            /* inside box shadow */
+            box-shadow: inset 5px 5px gray;
+
+            /* Multiple shadow in a single box */
+            box-shadow: 3px 5px lightgreen, 8px 8px green;
+        }
+
+        /* ----- TEXT SHADOW ----- */
+        .card h2 {
+            text-shadow: -7px -8px rgb(173, 170, 170);
+
+            text-shadow: -2px 2px 3px rgb(173, 170, 170);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card" id="card-1">
+            <h2>Learn C++</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ullam quod laudantium obcaecati quos
+                eaque nam voluptas expedita sequi quisquam unde dolorem beatae facere earum praesentium ipsa voluptate,
+                excepturi pariatur numquam dolore architecto esse quibusdam provident! Hic adipisci animi accusamus.</p>
+        </div>
+
+        <div class="card" id="card-2">
+            <h2>Learn Python</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ullam quod laudantium obcaecati quos
+                eaque nam voluptas expedita sequi quisquam unde dolorem beatae facere earum praesentium ipsa voluptate,
+                excepturi pariatur numquam dolore architecto esse quibusdam provident! Hic adipisci animi accusamus.</p>
+        </div>
+
+        <div class="card" id="card-3">
+            <h2>Learn Web Development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ullam quod laudantium obcaecati quos
+                eaque nam voluptas expedita sequi quisquam unde dolorem beatae facere earum praesentium ipsa voluptate,
+                excepturi pariatur numquam dolore architecto esse quibusdam provident! Hic adipisci animi accusamus.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

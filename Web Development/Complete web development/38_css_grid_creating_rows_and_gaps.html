@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+
+    <style>
+        .grid {
+            display: grid;
+            /* row 1 height is 4fr, second is 2fr and third is 2fr */
+            grid-template-rows: 4fr 2fr 2fr;
+            /* all remaining rows height is 3fr (default is 1fr) */
+            grid-auto-rows: 3fr;
+
+            grid-template-columns: 2fr 4fr 2fr;
+            grid-gap: 1rem;
+        }
+
+        .box {
+            background-color: goldenrod;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="box">This is Box-1</div>
+        <div class="box">This is Box-2</div>
+        <div class="box">This is Box-3</div>
+        <div class="box">This is Box-4</div>
+        <div class="box">This is Box-5</div>
+        <div class="box">This is Box-6</div>
+        <div class="box">This is Box-7</div>
+        <div class="box">This is Box-8</div>
+        <div class="box">This is Box-9</div>
+        <div class="box">This is Box-10</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+    <style>
+        .box {
+            font-size: 40px;
+            text-align: center;
+            background-color: red;
+            color: black;
+            /* hide display */
+            display: none;
+        }
+
+        /* MEDIA QUERIES */
+
+        /* according to our media condition applies our css code which we write inside media query. 
+
+        Types of media:
+
+        1. all - Suitable for all devices.
+
+        2. screen - Intended primarily for color computer screen.
+
+        3. tv - Intended for television type devices (low resolution, color, limited scrollability screens, sound available).
+
+        etc.
+
+        We can write media type using "only media_name" to tell the browser that it will support only this type of media. 
+        */
+
+        @media only screen and (max-width:500px) {
+
+            /* when screen width will be 1000px(max) or 0px(min), then media query will run */
+            #box1 {
+                display: block;
+                color: darkblue;
+                background-color: yellow;
+            }
+
+            #box3 {
+                display: inline-block;
+                color: gold;
+                background-color: black;
+            }
+        }
+
+        @media (max-width:1000px) and (min-width:500px) {
+            #box2 {
+                display: block;
+            }
+        }
+
+        @media only screen and (min-width:1000px) {
+            #box4 {
+                display: block;
+                background-color: cyan;
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box1">I am a Mobile</div>
+    <div class="box" id="box2">I am a Laptop</div>
+    <div class="box" id="box3">I am a Tablet</div>
+    <div class="box" id="box4">I am a Desktop</div>
+</body>
+
+</html>

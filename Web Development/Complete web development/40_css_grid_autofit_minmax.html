@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid auto fit and min max</title>
+</head>
+
+<style>
+    .container {
+        display: grid;
+        grid-gap: 1rem;
+
+        /* grid-template-columns: 120px 120px 120px;
+        justify-content: center;
+        align-items: center; */
+
+        /* Use for responsive website
+        auto-fit on minimum 400px width and maximum 1 fr width */
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+    }
+
+    .box {
+        border: 1px solid red;
+        padding: 20px;
+        background-color: rgb(158, 255, 255);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">Item-1</div>
+        <div class="box">Item-2</div>
+        <div class="box">Item-3</div>
+        <div class="box">Item-4</div>
+        <div class="box">Item-5</div>
+        <div class="box">Item-6</div>
+        <div class="box">Item-7</div>
+        <div class="box">Item-8</div>
+        <div class="box">Item-9</div>
+        <div class="box">Item-10</div>
+        <div class="box">Item-11</div>
+        <div class="box">Item-12</div>
+        <div class="box">Item-13</div>
+        <div class="box">Item-14</div>
+        <div class="box">Item-15</div>
+    </div>
+</body>
+
+</html>

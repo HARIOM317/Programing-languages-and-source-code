@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animations</title>
+</head>
+
+<style>
+    .container1 {
+        background-color: cornflowerblue;
+    }
+
+    .box1 {
+        background-color: aquamarine;
+        width: 250px;
+        height: 250px;
+        /* for moving on page change position in relative */
+        position: relative;
+
+        /* Giving animation name, duration and repeating number */
+        animation-name: first_animation;
+        animation-duration: 2s;
+        /* we can use infinite (in place of 2) to infinite iteration */
+        animation-iteration-count: 2;
+
+
+        /* ANIMATION FILL MODE */
+        /* 1.forwards: In this case it will stop at it's maximum width till it is iterating */
+        /* animation-fill-mode: forwards; */
+
+        /* 2.alternate: In this case stop the animation after iterating iterating */
+        animation-fill-mode: alternate;
+
+        /* ANIMATION TIMING FUNCTION */
+        /*  1. ease-in: starts animation from slow speed then increase it's speed */
+        /* animation-timing-function: ease-in; */
+
+        /*  2. ease-out: starts animation from fast speed then decrease it's speed */
+        /* animation-timing-function: ease-out; */
+
+        /*  2. ease-in-out: starts animation from slow speed then increase it's speed and after that stop after decreasing it's speed*/
+        animation-timing-function: ease-in-out;
+
+        /* starts animation after 3 seconds because of animation delay */
+        /* animation-delay: 3s; */
+
+        /* ANIMATION DIRECTION */
+        /* 1. alternate: moving foreword in first iteration, back word in second iteration and so on.. */
+        /* animation-direction: alternate; */
+
+        /* 2. reverse: reverse the animation */
+        animation-direction: reverse;
+    }
+
+    /* >>>>> CREATING ANIMATION 1 FOR FIRST BOX <<<<< */
+    @keyframes first_animation {
+
+        /* moving box from width 200px to 500px 2 times */
+        from {
+            width: 200px;
+        }
+
+        to {
+            width: 1000px;
+        }
+    }
+
+
+
+    .container2 {
+        margin-top: 20px;
+        background-color: blueviolet;
+    }
+
+    .box2 {
+        background-color: rgb(198, 241, 88);
+        width: 250px;
+        height: 250px;
+
+        /* setting animation properties */
+        position: relative;
+        animation-name: hsr;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+
+        /* Animation sort hand property */
+        /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+        animation: hsr 7s ease-in 1s 4 backwards;
+    }
+
+    /* >>>>> CREATING ANIMATION 2 FOR SECOND BOX <<<<< */
+    @keyframes hsr {
+
+        /* when animation is complete 0% then do this */
+        0% {
+            top: 0px;
+            left: 0px;
+        }
+
+        /* when animation is complete 25% then do this */
+        25% {
+            top: 50px;
+            left: 0px;
+        }
+
+        /* when animation is complete 50% then do this */
+        50% {
+            top: 50px;
+            left: 50px;
+        }
+
+        /* when animation is complete 70% then do this */
+        75% {
+            top: 50px;
+            left: 0px;
+        }
+
+        /* when animation is complete 100% then do this */
+        100% {
+            top: 0px;
+            left: 0px;
+        }
+    }
+</style>
+
+<body>
+    <div class="container1">
+        <div class="box1">
+            This is a box 1
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box2">
+            This is a box 2
+        </div>
+    </div>
+</body>
+
+</html>

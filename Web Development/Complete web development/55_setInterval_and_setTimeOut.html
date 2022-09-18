@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setInterval and setTimeOut</title>
+</head>
+
+<body>
+    <div class="container">
+        Time now is: <span id="time"></span>
+    </div>
+
+    <script>
+        function greet(name1, name2) {
+            console.log("Good morning " + name1 + " bhaiya and " + name2 + " dada!");
+        }
+
+        // setTimeOut -> allows us to run the function once after the interval of time
+        setTimeout(greet, 3000, "Hariom", "Abhishek");        // call greet function after 3 seconds (3000 milliseconds)
+
+        timeOut = setTimeout(greet, 3000, "Hariom", "Abhishek");
+        console.log(timeOut);       // return unique timeout id for function
+
+        // clearTimeOut -> clear the timeout id
+        clearTimeout(timeOut);
+
+
+        function displayTime() {
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML = time;
+        }
+        // setInterval - set interval for calling a function again and again.
+        setInterval(displayTime, 1000);
+
+
+        function sayGoodMorning() {
+            console.log("Good Morning!");
+        }
+
+        intervalId = setInterval(sayGoodMorning, 5000);
+
+        // clearInterval - clear the interval
+        clearInterval(intervalId);
+    </script>
+</body>
+
+</html>

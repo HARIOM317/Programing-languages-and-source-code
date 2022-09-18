@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables/ Custom properties</title>
+
+    <style>
+        /* CSS Variables */
+
+        :root {
+            /* These are the variables which is using root property and these can be access from anywhere */
+
+            /* syntax: --variable_name: css_property; */
+            /* defining some variables */
+
+            --my_color: aqua;
+            --my_border: 1.5px solid darkblue;
+            --the_shadow: 7px 5px 20px -7px;
+        }
+
+        .box {
+            /* This variable scope is limited till this box class only and it will not work out of this class */
+
+            /* creating variable */
+            --my-box-color: lightgreen;
+
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+
+            /* setting background color using variable */
+            background-color: var(--my-box-color);
+
+            /* using variable from root */
+            border: var(--my_border);
+            border-radius: 10px;
+            box-shadow: var(--the_shadow) var(--my_color);
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

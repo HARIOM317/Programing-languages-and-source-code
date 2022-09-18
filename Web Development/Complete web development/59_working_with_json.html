@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+* What is JSON?
+Ans - JSON is a data format and we can parse it in different programming languages.
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with json in javascript</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Working with json</h1>
+    </div>
+
+    <script>
+        let jsonObj = {
+            name: "Hariom",
+            study: "b.tech",
+            collage: "SISTec",
+            city: "Bhopal",
+            profession: "Engineering"
+        }
+        console.log(jsonObj);
+
+        // converting object into string
+        // Note: It takes only a valid json string
+        let myJsonStr = JSON.stringify(jsonObj);
+        console.log(myJsonStr);
+
+        // Now we can use all string functions in myJsonStr
+        myJsonStr = myJsonStr.replace('Engineering', 'Programming');
+        console.log(myJsonStr);
+
+        // converting string into object again
+        myJsonObj = JSON.parse(myJsonStr);
+        console.log(myJsonObj);
+    </script>
+</body>
+
+</html>

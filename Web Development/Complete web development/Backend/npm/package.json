@@ -1,0 +1,18 @@
+{
+  "name": "my_package",
+  "version": "1.0.0",
+  "description": "This is the best package of nadeJs for this.",
+  "main": "npm_in_nodeJs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "Hariom",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "slugify": "^1.6.5"
+  }
+}

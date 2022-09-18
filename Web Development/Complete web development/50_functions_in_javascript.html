@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in Javascript</title>
+</head>
+
+<body>
+    <h1>Javascript functions</h1>
+    <p>This is all about javascript functions</p>
+
+    <!-- javascript -->
+    <script>
+        // defining a function
+        function greet(name) {
+            console.log("Good Morning " + name + " sir!");
+        }
+        // calling the function greet
+        greet("Hariom");
+        greet("Abhishek");
+        greet("Pradeep");
+
+
+        // function with default argument
+        function greeting(name, greetText = "Very Good Morning") {
+            console.log(greetText, name);
+        }
+        // calling greeting function
+        greeting("Hariom");     // use default greetText value
+        greeting("Abhishek", "Good morning");    // overwriting greetText value
+
+
+        // return value using function
+        // Note: function will not execute the statements which are written after returning the value
+        function areaOfRectangle(width, height) {
+            return width * height + " square unit";
+            console.log("It will not execute");     // It will not execute
+        }
+        // calling function in console.log statement
+        console.log("Area of rectangle is: ", areaOfRectangle(10, 8));
+    </script>
+</body>
+
+</html>

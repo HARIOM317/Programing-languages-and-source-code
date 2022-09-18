@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+* What is a responsive design?
+Ans- Endless new resolutions and devices are difficult to support separately for a web developer. Responsive design is a way for a web developer to make his website adapt to all the devices and resolutions. Responsive design is a necessity and not a luxury anymore!
+
+There are various ways to achieve responsive design:
+1. Setting up the viewport.
+2. Use max-width/max-height.
+3. Using CSS media queries.
+4. Using rem/vh/vw units over pixels.
+ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Responsive Design</title>
+
+    <style>
+        html {
+            font-size: 15px;
+        }
+
+        .container {
+            width: 500px;
+            font-size: 8px;
+            border: 2px solid orange;
+            /* 100% view height of screen which is visible */
+            height: 100vh;
+            /* 100% view width of screen which is visible */
+            width: 100vw;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #first {
+            /* 5em means five times bigger font size then it's parent class which is .container (5*8 = 40px) */
+            font-size: 5em;
+            /* 3em padding means 3 times of it's font-size which is 10em (3*40 = 120px) */
+            padding: 3em;
+        }
+
+        #second {
+            /* 3rem means 3 times bigger font size then parent html tag (15*3 = 45px) */
+            font-size: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="first">This is first heading</h1>
+        <h1 id="second">This is second heading</h1>
+        <h1 id="third">This is third heading</h1>
+    </div>
+</body>
+
+</html>

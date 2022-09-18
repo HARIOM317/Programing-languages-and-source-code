@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- use title using pug -->
+    <title>#{title}</title>
+
+    <!-- include css file -->
+    style
+        include ../static/style.css
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Discount up to 60 percent on gym membership</h1>
+        <p>
+            | #{content}
+            |
+            <!-- rendering content using pug as a plain html -->
+        </p>
+        <p style="color: aquamarine;">Get our subscription now by sign up.</p>
+
+        <form action="/" method="post" id="content">
+            <input type="text" name="my_name" id="myNmae" placeholder="Enter your name">
+            <input type="email" name="email" id="myEmail" placeholder="Enter your email">
+            <input type="date" name="date" id="mydate" placeholder="Enter your DOB">
+            <input type="number" name="number" id="myNumber" placeholder="Enter your mobile number">
+            <input type="" name="Ac_number" id="myAcNumber" placeholder="Enter your account number">
+            <button>Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

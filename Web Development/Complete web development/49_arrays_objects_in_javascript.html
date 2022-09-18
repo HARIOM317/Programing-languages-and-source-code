@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays and objects in javascript</title>
+</head>
+
+<body>
+    <h1>This is all about arrays and objects in javascript</h1>
+    <p>Arrays and objects in javascript is an important topic.</p>
+
+    <script>
+        // Primitive data type
+
+        // Note : default value of let variable_name is undefined.
+        let myVar1 = 34;
+        let myVar2 = "String";
+        let myVar3 = true;
+        let myVar4 = null;
+        let myVar5 = undefined;
+
+        // object
+        let employee = {
+            name: "Hariom",
+            salary: 100000,
+            id: 780034,
+            "my post": "software engineer",
+        }
+        // accessing object data
+        console.log(employee);
+        console.log(employee.salary);
+        console.log(employee['name']);
+        console.log(employee['my post']);
+
+        // Arrays: we can store multiple data types in an array
+        let my_data = [12, "hariom", 'student', 98.76];
+        console.log(my_data);
+        console.log(my_data[1]);
+
+        // Array using new keyword
+        let names = new Array(192, 76, 'hariom', undefined, true);
+        console.log(names);
+        console.log(names[3]);
+
+        // get length of array
+        console.log(names.length);
+
+        // sorting an array
+        let my_number = [655, 87, 3, 09, -56, 34, -9, 32, 10];
+        let sort_number = my_number.sort();
+        console.log(sort_number);
+
+        // add element in array
+        names.push("New element");
+        console.log(names);
+
+        // declaring array with it's size
+        let numbers = new Array(50);        // declare array of 50 size with empty value
+        console.log(numbers.length)
+
+    </script>
+</body>
+
+</html>

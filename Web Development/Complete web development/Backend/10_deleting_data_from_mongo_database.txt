@@ -1,0 +1,5 @@
+1. deleteOne (delete only first matching entry if multi documents match)
+db.items.deleteOne({price: '500 $'}) = delete first document which price is 500$.
+
+2. deleteMany (delete all matching entries if multi documents match)
+db.items.deleteMany({rating: 4.5}) = delete all documents which rating is 4.5.

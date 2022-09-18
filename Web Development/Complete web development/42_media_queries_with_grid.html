@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- We use media queries with grid layout to make our website responsive -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries with css grid</title>
+
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+
+            /* set layout using grid-template-areas */
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'aside section section section'
+                'footer footer footer footer';
+        }
+
+        /* giving grid area name using id */
+        #navbar {
+            grid-area: navbar;
+        }
+
+        #section {
+            grid-area: section;
+        }
+
+        #aside {
+            grid-area: aside;
+        }
+
+        footer {
+            grid-area: footer;
+            text-align: center;
+        }
+
+
+        /* >>>>> media queries with grid template areas <<<<< */
+
+        @media only screen and (max-width:600px) {
+            body {
+                background-color: cyan;
+
+            }
+
+            .container {
+                /* changing display layout on width 600px */
+                grid-template-areas:
+                    'navbar navbar navbar navbar'
+                    'section section section section'
+                    'aside aside aside aside'
+                    'footer footer footer footer';
+            }
+
+            /* changing navbar layout */
+            span {
+                display: block;
+                text-align: center;
+                padding: 10px;
+            }
+        }
+
+        @media only screen and (min-width: 600px) and (max-width:1200px) {
+            body {
+                background-color: blueviolet;
+            }
+
+            .container {
+                /* changing display layout on width 1200px - 600px */
+                grid-template-areas:
+                    'navbar navbar navbar navbar'
+                    'section section aside aside'
+                    'footer footer footer footer';
+            }
+        }
+
+        @media (min-width: 1200px) and (max-width:2000px) {
+            body {
+                color: black;
+                background-color: orange;
+            }
+
+            .container {
+                /* changing display layout on width 2000px - 1200px */
+                grid-template-areas:
+                    'navbar navbar navbar navbar'
+                    'aside aside section section'
+                    'footer footer footer footer';
+            }
+
+        }
+
+        /* changing background color on width >= 2000px */
+        @media (min-width: 2000px) {
+            body {
+                background-color: aquamarine;
+            }
+        }
+
+        .border_on {
+            border: 1px solid darkblue;
+            padding: 20px 5px;
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="border_on" id="navbar">
+            <span>Home</span>
+            <span>Services</span>
+            <span>About</span>
+            <span>Contact</span>
+        </nav>
+        <section class="border_on" id="section">
+            <h2>Learn Web Development</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla tempore numquam magni exercitationem
+                perspiciatis. Perferendis cum et temporibus laboriosam aliquid iste maiores placeat, autem molestiae,
+                aspernatur nulla, optio rerum ex. Vel ducimus, aliquam quo atque corporis, eligendi fugiat illum omnis
+                assumenda eos, officia repellendus esse harum! Nostrum accusamus ducimus error?</p>
+        </section>
+        <aside class="border_on" id="aside">
+            <h1>More about us</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut odio neque voluptas nostrum odit. Autem odio
+                ex cupiditate, minus minima dolorum nostrum illum eligendi ab reprehenderit quisquam repudiandae illo
+                esse?</p>
+        </aside>
+        <footer class="border_on">
+            This is footer
+        </footer>
+    </div>
+
+</body>
+
+</html>

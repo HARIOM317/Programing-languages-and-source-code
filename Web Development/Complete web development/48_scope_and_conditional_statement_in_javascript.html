@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope, if-else condition | switch case statement</title>
+</head>
+
+<body>
+    <h1>Javascript scope and conditional statement</h1>
+    <p>This topic is all about javascript scope, if-else conditions and switch case statement.</p>
+    <p>These all operations we will perform in developer console of browser.</p>
+
+    <script>
+        var str1 = "This is a string";
+        // re-declaring the string with same name of variable
+        var str1 = "I am hariom";
+        // no error throw and redeclare variable str1
+        console.log(str1);
+        // Note: var can create a problem in our website if we create same name of variable but we don't know. That's why we should use let keyword to create a variable.
+
+        // declaring variable using let
+        let a = "Welcome";
+        // let a = "Good morning";
+        // Note: This will throw an error that 'a' has already been declared
+        console.log(a);
+
+        // SCOPE
+        {
+            // this is local variable a which scope is only in this braces, so this will not throw an error.
+            let a = "Good morning";
+            console.log(a);
+        }
+
+        // constant in javascript
+        const str2 = "This can not be changed";
+        // str2 = "can we change?";  // this will throw an error.
+        console.log(str2);
+
+
+        // conditional statements
+        let marks = 92;
+
+        if (marks >= 75 && marks <= 100) {
+            console.log("You got A");
+        }
+        else if (marks >= 50 && marks < 75) {
+            console.log("You got B");
+        }
+        else if (marks >= 33 && marks < 50) {
+            console.log("You got C");
+        }
+        else if (marks < 0 || marks > 100) {
+            console.log("Invalid marks");
+        }
+        else {
+            console.log("You are fail");
+        }
+
+        // switch case statements
+        const color = "purple";
+
+        switch (color) {
+            case "red":
+                console.log("The color is red");
+                break;
+
+            case "blue":
+                console.log("The color is blue");
+                break;
+
+            case "purple":
+                console.log("The color is purple");
+                break;
+
+            case "green":
+                console.log("The color is green");
+                break;
+
+            default:
+                console.log("The color is different");
+                break;
+        }
+    </script>
+</body>
+
+</html>

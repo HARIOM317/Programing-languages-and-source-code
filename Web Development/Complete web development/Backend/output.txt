@@ -1,0 +1,5 @@
+The name of the client is: hariom 
+The email of the client is: hariommewada484@gmail.com 
+The DOB of the client is: 2022-09-10 
+The number of the client is: 766876876 
+The Account number of the client is: 8767676788988700009988

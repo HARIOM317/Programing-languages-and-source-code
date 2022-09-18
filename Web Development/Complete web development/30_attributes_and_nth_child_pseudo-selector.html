@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attributes and nth child pseudo selector</title>
+
+    <style>
+        .container {
+            display: block;
+            width: 250px;
+            margin: auto;
+        }
+
+        input {
+            display: block;
+        }
+
+        /* This css applies only on that input tag which type is text */
+        input[type='text'] {
+            padding: 30px;
+            border: 1.5px solid red;
+        }
+
+        /* css applies on that a tag which target has been set */
+        a[target] {
+            display: block;
+            color: red;
+        }
+
+        /* css applies on that a tag which target is _self */
+        a[target='_self'] {
+            font-style: italic;
+            background-color: black;
+        }
+
+
+        /* >>>>> nth child pseudo selector <<<<< */
+
+        /* This will apply css on third child */
+        li:nth-child(3) {
+            background-color: green;
+            color: white;
+        }
+
+        /* This will apply css on every second child  according to formula.
+        n=0 -> 2*0+0 = 0
+        n=1 -> 2*2+0 = 4
+        n=2 -> 2*3+0 = 6
+        and so on...
+        */
+        li:nth-child(2n+0) {
+            color: purple;
+            font-style: italic;
+            font-size: 20px;
+        }
+
+        /* This css applies on odd child */
+        li:nth-child(odd) {
+            background-color: yellow;
+            color: darkblue;
+        }
+
+        /* This css applies on even child */
+        /* li:nth-child(even) {
+            background-color: yellow;
+            color: darkblue;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            <a href="http://google.com" target="_blank">Go to Google</a>
+            <a href="http://youtube.com">Go to YouTube</a>
+            <a href="http://facebook.com" target="_self">Go to Facebook</a>
+        </h1>
+
+
+        <form action="" class="form-control">
+            <input type="text" placeholder="Enter your name">
+            <input type="password" placeholder="Enter your password">
+            <input type="submit" value="Submit">
+        </form>
+
+        <ul>
+            <li class="item">item1</li>
+            <li class="item">item2</li>
+            <li class="item">item3</li>
+            <li class="item">item4</li>
+            <li class="item">item5</li>
+            <li class="item">item6</li>
+            <li class="item">item7</li>
+            <li class="item">item8</li>
+            <li class="item">item9</li>
+            <li class="item">item10</li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and time</title>
+
+    <style>
+        .container {
+            font-size: 45px;
+            background-color: aquamarine;
+            border: 2px solid darkblue;
+            border-radius: 100px;
+            padding: 200px 0px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        Current time : <span id="time"></span>
+    </div>
+
+
+    <script>
+        // >>>>> date and Time using constructor <<<<<
+
+        // reference date and time
+        let dt1 = new Date(0);
+        console.log(dt1);
+
+        // 5 seconds ahead from reference date and time
+        let dt2 = new Date(5000);
+        console.log(dt2);
+
+        // current date and time
+        let now = new Date();
+        console.log(now);
+
+        // current date and time
+        let date_of_2030 = new Date("2030-01-26");
+        console.log(date_of_2030);
+
+        // let name = new Date(year, month, date, hour, minutes, seconds, milliseconds)
+        let newDate = new Date(2050, 10, 15, 12, 00, 00, 00);
+        console.log(newDate);
+
+
+        // DATE AND TIME FUNCTIONS
+        console.log("\n\nDate and time functions:\n");
+
+        // 1. getFullYear - for getting full year
+        let yr = newDate.getFullYear();
+        console.log(yr);
+        // 2. getMonth - for getting full month
+        let mo = newDate.getMonth();
+        console.log(mo);
+        // 3. getDate - for getting full date
+        let dt = newDate.getDate();
+        console.log(dt);
+        // 4. getHours - for getting full hour
+        let hr = newDate.getHours();
+        console.log(hr);
+        // 5. getMinutes - for getting full minutes
+        let mn = newDate.getMinutes();
+        console.log(mn);
+
+
+        // Updating date
+        newDate.setDate(25);
+        console.log("Updated date = ", newDate);
+        newDate.setMonth(0);
+        console.log("Updated month = ", newDate);
+        newDate.setHours(23);
+        console.log("Updated hour = ", newDate);
+
+        // current time stamp in milliseconds from reference date 
+        console.log(Date.now());
+
+
+        // clock with current date & time
+        setInterval(updateTime, 1000);
+        function updateTime() {
+            time.innerHTML = new Date();
+        }
+    </script>
+</body>
+
+</html>

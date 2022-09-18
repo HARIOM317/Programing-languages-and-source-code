@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Template Area</title>
+
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+
+            /* >>>>> grid template areas <<<<< */
+
+            /* 
+            row 1 is navbar
+            row 2 is section (75%) and aside (25%)
+            row 3 is footer
+             */
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section section aside'
+                'footer footer footer footer';
+        }
+
+        .item {
+            background-color: aquamarine;
+            border: 1px solid black;
+            font-size: 20px;
+            padding: 30px 10px;
+            border-radius: 10px;
+        }
+
+        #navbar {
+            /* name of grid area */
+            grid-area: navbar;
+
+            font-weight: bold;
+        }
+
+        #section {
+            /* name of grid area */
+            grid-area: section;
+        }
+
+        #aside {
+            /* name of grid area */
+            grid-area: aside;
+        }
+
+        footer {
+            /* name of grid area */
+            grid-area: footer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+            Home Contact About
+        </div>
+        <div id="section" class="item">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure totam atque eos veritatis suscipit deserunt
+            ratione voluptatem, incidunt veniam aut, adipisci quos velit quo eligendi eveniet quam. Cum, odio provident.
+        </div>
+        <div id="aside" class="item">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quam unde quidem, voluptatum porro
+            dignissimos nam eligendi, non reiciendis accusantium voluptatibus quos modi vitae similique corporis minus
+            alias deserunt? Quaerat?
+        </div>
+
+        <footer class="item">hsr@support.com/vinus-mysupport.com</footer>
+    </div>
+</body>
+
+</html>

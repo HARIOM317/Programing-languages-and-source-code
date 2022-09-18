@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+
+    <style>
+        h1 {
+            background-color: aquamarine;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* This affect all p tag which are inside the div tag in how much depth */
+        /* div p {
+            color: aqua;
+            background-color: black;
+            font-style: italic;
+        } */
+
+        /* It will affect only direct p child of div (It means div should be direct parent of p) */
+        div>p {
+            color: aqua;
+            background-color: black;
+            font-style: italic;
+        }
+
+        /* This will apply on that paragraph whose previous parent is div */
+        div+p {
+            color: gold;
+            font-weight: bold;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>More selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p> This is first paragraph </p>
+                </li>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is outer most paragraph</p>
+</body>
+
+</html>

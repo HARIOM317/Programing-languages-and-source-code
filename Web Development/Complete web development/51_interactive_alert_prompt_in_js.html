@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction using alert, confirm and prompt</title>
+</head>
+
+<body>
+    <div>
+        <h1>interactive alert prompt in js</h1>
+    </div>
+
+    <script>
+        // 1. alert - It does not return anything (It's return value is undefined).
+        alert("This is alert message!");
+
+        /*
+        let a = alert("The alert message!");
+        console.log(a);
+        */
+
+        // 2.  prompt - asking question to user using prompt
+        let name = prompt("What is your name?", "Guest account");       // here Guest account is a default argument and this is optional.
+        console.log("Your name is: ", name);
+
+        // 3. confirm - It take a message and it returns true if we click on yes otherwise it returns false
+        let deletePost = confirm("Do you really want to delete this post?");
+        console.log(deletePost);
+        if (deletePost) {
+            console.log("Your post has been deleted successfully!");
+        }
+        else {
+            console.log("Your post has not been deleted!");
+        }
+    </script>
+</body>
+
+</html>

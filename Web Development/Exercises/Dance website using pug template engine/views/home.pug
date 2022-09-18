@@ -1,0 +1,39 @@
+//- extending base.pug template
+extends base.pug
+
+//- filling index.js in script block
+block scripts 
+    script(src='../static/index.js')
+
+//- filling style.css in style block
+block style  
+    style
+        include ../static/style.css
+
+//- inserting contents in content block
+block content 
+    section#introSection 
+        div  Welcome to HSR dance academy
+        div.small  Eat Sleep and Dance Repeat 
+        div.little  Any Body Can dance 
+
+    section#missionSection 
+        h3 Our Missions
+        div.card 
+            h4 Dance Perfection
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sapiente harum, dolorem numquam repellat doloremque quas autem nisi repudiandae vel fugiat nulla, alias est quisquam consectetur! Possimus maiores accusamus exercitationem.
+        div.card 
+            h4 Dance The Way You Like
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sapiente harum, dolorem numquam repellat doloremque quas autem nisi repudiandae vel fugiat nulla, alias est quisquam consectetur! Possimus maiores accusamus exercitationem.
+        div.card 
+            h4 Expert Teaching
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sapiente harum, dolorem numquam repellat doloremque quas autem nisi repudiandae vel fugiat nulla, alias est quisquam consectetur! Possimus maiores accusamus exercitationem.
+        
+    section#sponsorSection 
+        h3 Our Sponsors
+        div#sponsors
+            img(src="/static/sponsors/logo1.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/sponsors/logo2.png", alt="Sponsor Image", Class="spImage", id="myColor")
+            img(src="/static/sponsors/logo3.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/sponsors/logo4.png", alt="Sponsor Image", Class="spImage")
+

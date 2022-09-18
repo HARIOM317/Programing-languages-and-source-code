@@ -1,0 +1,5 @@
+1. updateOne - Updating only only document
+db.items.updateOne({name: "Oppo f21 pro"}, {$set: {price: "350$"}}) = In Oppo f21 pro price will update from 400$ to 350$.
+
+2. updateMany - Updating all documents of same name
+db.items.updateMany({name: "Oppo f21 pro"}, {$set: {price: "300$", rating: 4.4, sold: 250}}) = Updating price and rating in both Oppo f21 pro documents.

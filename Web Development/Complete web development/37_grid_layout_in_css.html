@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+Grid Layout:
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+Grid Elements:
+A grid layout consists of a parent element, with one or more child elements.
+
+CSS Grid Properties:
+____________________
+
+1. Display Property
+An HTML element becomes a grid container when its display property is set to grid or inline-grid.
+
+2. Grid Columns
+The vertical lines of grid items are called columns.
+
+3. Grid Rows
+The horizontal lines of grid items are called rows.
+
+4. Grid Gaps
+The spaces between each column/row are called gaps.
+
+5. Grid Lines
+The lines between columns are called column lines.
+The lines between rows are called row lines.
+
+and more..
+___________________________________________________________
+ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid layout</title>
+
+    <style>
+        .container {
+            /* When i did grid of display in container class than the container becomes a grid and it's all child(Item 1, Item 2, ...) becomes grid-items */
+            display: grid;
+
+            /* >>>>> grid-template-columns <<<<< */
+            /* Create 3 columns of width 200px, 150px and 150px */
+            /* grid-template-columns: 200px 150px 150px; */
+
+            /* first column width is 200px, second is 150px and last is auto (all remaining width of screen) */
+            /* grid-template-columns: 200px 150px auto; */
+
+            /* column divides in ratio of 1:4:3 of total screen width  */
+            /* grid-template-columns: 1fr 4fr 3fr; */
+
+            /* Separate all 6 items in equal width of 3 column */
+            grid-template-columns: repeat(3, auto);
+
+
+            /* >>>>> grid gap <<<<< */
+            /* gap between two grid items */
+            grid-gap: 2rem;
+        }
+
+        .item {
+            background-color: blueviolet;
+            margin: 5px;
+            padding: 15px;
+            color: white;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">This is Item 1</div>
+        <div class="item">This is Item 2</div>
+        <div class="item">This is Item 3</div>
+        <div class="item">This is Item 4</div>
+        <div class="item">This is Item 5</div>
+        <div class="item">This is Item 6</div>
+    </div>
+</body>
+
+</html>
