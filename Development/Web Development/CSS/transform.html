@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform property</title>
+
+    <style>
+        .container{
+            background-color: greenyellow;
+            color: black;
+            height: 450px;
+        }
+        .box{
+            border: 2px solid black;
+            height: 25vh;
+            width: 40vw;
+            background-color: blanchedalmond;
+
+            transform-origin: 0;
+            /* transform: translate(200px, 100px) rotate(0.025turn); */
+            /* transform: scale(3, 5); */
+            transform: skew(3deg, 8deg);
+        }
+
+        .image{
+            margin: 70px 20px;
+            width: 350px;
+            height: 200px;
+            background-image: url(/1.jpg);
+            background-size: 360px;
+            /* transform: scale(0.75) rotate(30deg); */
+            transform: rotateX(50deg) rotateY(20deg) rotateZ(-30deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis neque non, rem cum, velit possimus error magnam illo recusandae in, autem ipsa officiis quos sunt ab facilis? Eos animi cumque rem molestias facere. Quaerat, saepe blanditiis recusandae porro, in, ipsam vel minus eveniet a dicta neque esse architecto illum. Eaque!
+        </div>
+
+        <div class="image">
+
+        </div>
+    </div>
+</body>
+</html>

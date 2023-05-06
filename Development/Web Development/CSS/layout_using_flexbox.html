@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic layout using flexbox</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            background-color: rgba(28, 27, 32);
+        }
+        .container{
+            background-color: black;
+            height: 15vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image{
+            width: 125px;
+            height: 75px;
+            background-image: url(/1.jpg);
+            background-size: 150px;
+            border: 2px solid white;
+            border-radius: 50px;
+        }
+        .navbar{
+            display: flex;
+            flex-grow: 3;
+            background-color: black;
+            justify-content: right;
+        }
+
+        .navbar nav ul{
+            display: flex;
+            list-style: none;
+        }
+        .navbar nav ul li a{
+            color: white;
+            background-color: black;
+            text-decoration: none;
+            padding: 15px;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        main{
+            /* background-color: rgba(28, 27, 32, 0.678); */
+        }
+
+        .top{
+            background-color: rgb(1, 189, 180);
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            text-align: justify;
+        }
+        .container2{
+            display: flex;
+            height: 80vh;
+        }
+        .box1{
+            height: 40vh;
+            margin: 20px;
+            border: 1px solid white;
+            border-radius: 8px;
+            text-align: center;
+            flex-grow: 1;
+            background-image: url('/2.jpg');
+            background-size: 420px;
+        }
+        .box2{
+            height: 40vh;
+            margin: 20px;
+            border: 1px solid white;
+            border-radius: 8px;
+            text-align: center;
+            flex-grow: 1;
+            background-image: url('/3.jpg');
+            background-size: 420px;
+        }
+        .box3{
+            height: 40vh;
+            margin: 20px;
+            border: 1px solid white;
+            border-radius: 8px;
+            text-align: center;
+            flex-grow: 1;
+            background-image: url('/4.jpg');
+            background-size: 420px;
+        }
+
+        footer{
+            background-color: rgb(0, 204, 255);
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image"></div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <div class="top">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repudiandae ipsum amet nesciunt sequi, eaque perspiciatis quae eveniet corporis doloremque inventore maiores explicabo quasi laborum. Atque modi blanditiis deserunt suscipit. Dicta, fugit obcaecati rerum quod pariatur, fuga incidunt quis corrupti porro, dolore debitis sunt excepturi qui eum dolorem autem. Natus autem reiciendis ea odit, excepturi dolorem, quos omnis fuga perspiciatis aperiam officiis ipsum at inventore, sint ut ratione. Exercitationem expedita tempore alias? Deleniti laudantium quaerat quis repellendus unde nemo eveniet repellat, architecto nobis alias, dolor odit cupiditate fugit error iste dicta! Cupiditate, qui ea iusto molestiae rem dolore natus ratione?
+        </div>
+        <div class="container2">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
+    </main>
+
+    <footer>
+        Copyright &copy; HSR | contact: +91 0000 0000
+    </footer>
+</body>
+</html>

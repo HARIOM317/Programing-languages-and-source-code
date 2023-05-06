@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition</title>
+
+    <style>
+        .container {
+            background-color: aquamarine;
+            width: 100vw;
+            height: 75vh;
+            display: flex;
+            padding: 20px;
+        }
+
+        .box {
+            width: 200px;
+            height: 112px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: orange;
+            background-image: url(/5.jpg);
+            background-size: 200px;
+            margin: 0px 10px;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 112px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: orange;
+            background-image: url(/4.jpg);
+            background-size: 200px;
+            margin: 0px 10px;
+
+            /* Transition */
+
+            transition-property: width height;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+            transition-delay: 0.5s;
+        }
+
+        .box:hover {
+            background-image: url(/3.jpg);
+        }
+
+        .box2:hover {
+            width: 400px;
+            height: 224px;
+            background-size: 400px;
+        }
+
+        button {
+            width: 100px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box2" id="myImage"></div>
+        <button id="btn">Toggle</button>
+    </div>
+</body>
+
+<script>
+    myImage.style.width = '200px';
+    myImage.style.height = "112px";
+
+    btn.addEventListener("click", () => {
+
+        if (myImage.style.width == '200px') {
+            myImage.style.width = "400px";
+            myImage.style.height = "224px";
+        }
+        else if (myImage.style.width == '400px') {
+            myImage.style.width = "200px";
+            myImage.style.height = "112px";
+        }
+    })
+</script>
+
+</html>

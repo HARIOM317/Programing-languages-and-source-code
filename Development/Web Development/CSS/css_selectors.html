@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+        /* div, h1-h6, head, body, p, header etc. are called selectors in css */
+
+        /* * is an univarsal selector */
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            background-color: rgb(40, 57, 57);
+            color: white;
+        }
+        h1{
+            color: gold;
+            font-size: 30px;
+        }
+        div#myColor{
+            color: lightgreen;
+        }
+        span#myColor{
+            color: darkblue ;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>CSS Selectors</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, itaque corrupti fugit animi quisquam enim reprehenderit rem ad, non quia error maxime. Laboriosam ducimus earum odit assumenda temporibus laudantium quia!</p>
+    </div>
+
+    <div id="myColor">
+        <ol>
+            <li>Appple</li>
+            <li>Orange</li>
+            <li>Mango</li>
+            <li>banana</li>
+            <li>Guava</li>
+            <li>Pineapple</li>
+            <li>Grape</li>
+        </ol>
+    </div>
+
+    <span id="myColor">
+        <ul>
+            <li>Lion</li>
+            <li>Tiger</li>
+            <li>Elephant</li>
+            <li>Fox</li>
+            <li>Dear</li>
+            <li>Sanck</li>
+            <li>Bull</li>
+        </ul>
+    </span>
+</body>
+</html>

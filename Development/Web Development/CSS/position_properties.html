@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Properties</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline-block;
+        }
+
+        header {
+            background-color: black;
+            height: 60px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            margin: 10px;
+        }
+
+        .pera1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 15px;
+            border: 2px solid black;
+            border-radius: 5px;
+            text-align: center;
+            margin: 10px;
+            color: black;
+        }
+
+        .container {
+            background-color: aqua;
+            width: 50vw;
+            height: 60vh;
+            margin:  10px auto;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+            background-color: orange;
+            border: 2px solid white;
+            border-radius: 10px;
+            position: absolute;
+            right: 10px;
+            top: 70px;
+            text-align: center;
+            line-height: 60px;
+        }
+
+        .box2 {
+            height: 200px;
+            width: 200px;
+            background-color: rgb(243, 213, 157);
+            border: 2px solid white;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 60px;
+            position: relative;
+            top: 40px;
+            left: 205px;
+        }
+
+        .box3 {
+            height: 200px;
+            width: 200px;
+            background-color: rgb(0, 74, 68);
+            color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 60px;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .secondContainer {
+            background-color: aquamarine;
+            width: 50vw;
+            height: 60vh;
+            margin: 10px auto;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .pera2{
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Service</a>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <p class="pera1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis hic rerum nisi earum necessitatibus ex.
+            Numquam repellat ipsam unde esse quasi ea illo ipsum, illum nostrum eum sit dolore sint, quibusdam
+            recusandae quae autem. Incidunt ipsum dignissimos architecto voluptates perspiciatis nobis, iste porro quae
+            odio officia non quo error. Accusantium!
+        </p>
+
+        <div class="box">
+            I am a Box
+        </div>
+
+        <div class="box2">
+            I am a Box2
+        </div>
+
+        <div class="box3">
+            I am a Box3
+        </div>
+    </div>
+
+    <div class="secondContainer">
+        <p class="pera2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repudiandae tenetur accusantium est architecto maxime inventore dolorem aliquid rem illo non perspiciatis unde, possimus eveniet corporis, dolorum quos animi minus, reiciendis perferendis odio in! Alias exercitationem eius corrupti nisi perferendis voluptas cupiditate adipisci deleniti fuga. Nobis unde minus repellendus rem.
+        </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: burlywood;
+        }
+
+        .box{
+            width: 200px;
+            height: 113px;
+            background-color: #d2d5da;
+            color: white;
+            border-radius: 10px;
+            border: 2px solid greenyellow;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            animation-name: myAnimation;
+            animation-timing-function: ease-out;
+            animation-duration: 3s;
+            animation-delay: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes myAnimation {
+            from{
+                width: 200px;
+            }
+            to{
+                width: 100vw;
+            }
+        }
+        @keyframes carSpeed {
+            from{
+                width: 200px;
+            }
+            to{
+                width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="/5.jpg" alt="My Car" width="200px">
+        </div>
+    </div>
+</body>
+</html>
