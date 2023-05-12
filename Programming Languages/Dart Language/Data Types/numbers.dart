@@ -1,8 +1,7 @@
 void main(List<String> args) {
   int radius = 10;
   double pi = 3.14;
-  num area = pi * radius * radius;
-  print("Area = $area");
+  print("Area = ${pi * radius * radius}");
 
   var num1 = int.parse("12");
   var num2 = num.parse("15.87");
