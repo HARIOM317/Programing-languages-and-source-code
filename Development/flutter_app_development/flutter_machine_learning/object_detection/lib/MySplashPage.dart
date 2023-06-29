@@ -14,7 +14,7 @@ class _MySplashPageState extends State<MySplashPage> {
   @override
   Widget build(BuildContext context) {
     return SplashScreen(
-      seconds: 12,
+      seconds: 5,
       navigateAfterSeconds: HomePage(),
       imageBackground: Image.asset("assets/back.jpg").image,
       useLoader: true,

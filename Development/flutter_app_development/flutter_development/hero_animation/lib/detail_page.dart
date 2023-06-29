@@ -1,15 +1,13 @@
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class DetailPage extends StatelessWidget{
+class DetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Detail'),
       ),
-
       body: Container(
         child: Hero(
           tag: 'background',
@@ -18,31 +16,41 @@ class DetailPage extends StatelessWidget{
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.asset('assets/images/animal.jpg'),
-
                 Container(
                   width: double.infinity,
                   height: 300,
                   margin: EdgeInsets.all(10),
-                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.blue,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: Colors.blue,
                   ),
                 ),
                 Container(
                   width: double.infinity,
                   height: 300,
                   margin: EdgeInsets.all(10),
-                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.blueAccent,),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: Colors.blueAccent,
+                  ),
                 ),
                 Container(
                   width: double.infinity,
                   height: 300,
                   margin: EdgeInsets.all(10),
-                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.indigoAccent,),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: Colors.indigoAccent,
+                  ),
                 ),
                 Container(
                   width: double.infinity,
                   height: 300,
                   margin: EdgeInsets.all(10),
-                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: Colors.lightBlue,),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: Colors.lightBlue,
+                  ),
                 ),
               ],
             ),
