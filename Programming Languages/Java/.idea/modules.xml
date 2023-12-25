@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/12. Collection Framworks/12. Collection Framworks.iml" filepath="$PROJECT_DIR$/12. Collection Framworks/12. Collection Framworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8. OOPs/8. OOPs.iml" filepath="$PROJECT_DIR$/8. OOPs/8. OOPs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9. Packages/9. Packages.iml" filepath="$PROJECT_DIR$/9. Packages/9. Packages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12. Collection Framworks/List Interface/List Interface.iml" filepath="$PROJECT_DIR$/12. Collection Framworks/List Interface/List Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/Other.iml" filepath="$PROJECT_DIR$/Other/Other.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programming Languages.iml" filepath="$PROJECT_DIR$/Programming Languages.iml" />
+    </modules>
+  </component>
+</project>

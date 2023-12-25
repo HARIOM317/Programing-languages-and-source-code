@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Collection Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Dequeue Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Iterable Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Map Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Queue Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Set Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sorted Set Interface" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
