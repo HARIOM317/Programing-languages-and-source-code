@@ -1,0 +1,15 @@
+{
+  "name": "mongoose_node",
+  "version": "1.0.0",
+  "description": "Working with mongoose to manage database using nodeJS as backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hariom Singh rajput",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.1.1"
+  }
+}

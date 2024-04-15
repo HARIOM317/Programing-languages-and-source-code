@@ -1,0 +1,8 @@
+.main-heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-heading p{
+  cursor: pointer;
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #d2dbdd;
+}
+
+div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Kurale', serif;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 15px 20px;
+  color: white;
+  background-color: blueviolet;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-Step Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page" class="site">
+      <div class="container">
+        <div class="form-box">
+          <div class="process">
+            <div class="logo">
+              <a href="/"><span>.web</span>design</a>
+            </div>
+            <ul class="progress-steps">
+              <li class="step active">
+                <span>1</span>
+                <p>Personal<br /><span>25 secs to complete</span></p>
+              </li>
+              <li class="step">
+                <span>2</span>
+                <p>Contact<br /><span>50 secs to complete</span></p>
+              </li>
+              <li class="step">
+                <span>3</span>
+                <p>Security<br /><span>30 secs to complete</span></p>
+              </li>
+            </ul>
+          </div>
+          <form action="">
+            <div class="form-one form-step active">
+              <div class="bg-svg"></div>
+              <h2>Personal Information</h2>
+              <p>Enter Your Personal Information Correctly</p>
+              <div>
+                <label>First Name</label>
+                <input type="text" placeholder="e.g. John" />
+              </div>
+              <div>
+                <label>Last Name</label>
+                <input type="text" placeholder="e.g. Paul" />
+              </div>
+              <div class="birth">
+                <label>Date of Birth</label>
+                <div class="grouping">
+                  <input
+                    type="text"
+                    patter="[0-9]*"
+                    name="day"
+                    value=""
+                    min="0"
+                    max="31"
+                    placeholder="DD"
+                  />
+                  <input
+                    type="text"
+                    patter="[0-9]*"
+                    name="month"
+                    value=""
+                    min="0"
+                    max="12"
+                    placeholder="MM"
+                  />
+                  <input
+                    type="text"
+                    patter="[0-9]*"
+                    name="year"
+                    value=""
+                    min="0"
+                    max="2050"
+                    placeholder="YYYY"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-two form-step">
+              <div class="bg-svg"></div>
+              <h2>Contact</h2>
+              <div>
+                <label>Phone</label>
+                <input type="tel" placeholder="+91 xxxxxxxxxx" />
+              </div>
+              <div>
+                <label>Address</label>
+                <input type="text" placeholder="Street Address" />
+              </div>
+              <div>
+                <input type="text" placeholder="App, Suite, Building" />
+              </div>
+              <div>
+                <label>City</label>
+                <input type="text" placeholder="City" />
+              </div>
+              <div>
+                <label>State</label>
+                <input type="text" placeholder="State" />
+              </div>
+              <div>
+                <label>Zip Code</label>
+                <input type="text" placeholder="Zip Code" />
+              </div>
+              <div>
+                <label>Country</label>
+                <select name="country" id="country">
+                  <option value="">Please Select</option>
+                  <option value="Country 1">Country 1</option>
+                  <option value="Country 2">Country 2</option>
+                  <option value="Country 3">Country 3</option>
+                  <option value="Country 4">Country 4</option>
+                  <option value="Country 5">Country 5</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-three form-step">
+              <div class="bg-svf"></div>
+              <h2>Security</h2>
+              <div>
+                <label>Email</label>
+                <input type="email" placeholder="Your Email Address" />
+              </div>
+              <div>
+                <label>Username</label>
+                <input type="text" placeholder="Username" />
+              </div>
+              <div>
+                <label>Password</label>
+                <input type="password" placeholder="Password" />
+              </div>
+              <div>
+                <input type="password" placeholder="Confirm Password" />
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" />
+                <label>Receive our news letter and special offers</label>
+              </div>
+            </div>
+
+            <div class="btn-group">
+              <button type="button" class="btn-prev" disabled>Back</button>
+              <button type="button" class="btn-next">Next</button>
+              <button type="button" class="btn-submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

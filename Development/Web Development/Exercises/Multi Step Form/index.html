@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi Step Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="form-wrap">
+      <div class="form-container">
+        <form action="" id="multi-step-form">
+          <div id="form-container-box">
+            <h1 class="form-title">Multi Step Form</h1>
+            <ul class="progress-bar">
+              <li id="step1" class="active">User Info</li>
+              <li id="step2">Address</li>
+              <li id="step3">Comments</li>
+            </ul>
+
+            <!-- ===== Step Group 1 ===== -->
+            <div class="step-group" id="step-group-1">
+              <div class="form-box">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-field"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-field"
+                    placeholder="Last Name"
+                  />
+                </div>
+              </div>
+
+              <div class="form-box">
+                <div class="form-group">
+                  <input type="email" class="form-field" placeholder="Email" />
+                </div>
+              </div>
+
+              <div class="form-box">
+                <div class="form-group">
+                  <input type="tel" class="form-field" placeholder="Phone" />
+                </div>
+              </div>
+
+              <div class="form-box">
+                <div class="btn-step">
+                  <button id="step-next-1">Next &#65515;</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- ===== Step Group 2 ===== -->
+            <div class="step-group" id="step-group-2">
+              <div class="form-box">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-field"
+                    placeholder="Address 1"
+                  />
+                </div>
+              </div>
+
+              <div class="form-box">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-field"
+                    placeholder="Address 2"
+                  />
+                </div>
+              </div>
+
+              <div class="form-box">
+                <div class="form-group">
+                  <input type="text" class="form-field" placeholder="City" />
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-field" placeholder="Zip" />
+                </div>
+              </div>
+
+              <div class="form-box">
+                <div class="btn-step">
+                  <button id="step-prev-1">&#65513; Prev</button>
+                  <button id="step-next-2">Next &#65515;</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- ===== Step Group 3 ===== -->
+            <div class="step-group" id="step-group-3">
+              <div class="form-box">
+                <div class="form-group">
+                  <textarea
+                    class="form-field"
+                    placeholder="Message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="form-box">
+                <div class="btn-step">
+                  <button id="step-prev-2">&#65513; Prev</button>
+                  <button type="submit" id="step-next-3">
+                    Submit &#65515;
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===== Success Box ===== -->
+          <div id="success-box">
+            <span class="done"> &#10004; </span>
+            <p class="success-text">Your Form has submitted successfully!</p>
+            <button id="reset-btn" type="reset">Refresh</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

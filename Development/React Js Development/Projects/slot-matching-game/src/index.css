@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #d2dbdd;
+}
+
+.heading-style{
+  padding: 30px 0;
+  text-align: center;
+  font-family: 'Rubik Doodle Shadow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.slot-inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  font-family: 'Anton', sans-serif;
+  margin-top: 10px;
+}
+
+.slot-outer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  color: rgb(23, 18, 26);
+  padding: 10px;
+}

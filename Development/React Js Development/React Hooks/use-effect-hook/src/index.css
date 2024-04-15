@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container button{
+  padding: 1rem 2rem;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  margin: 2rem;
+}
