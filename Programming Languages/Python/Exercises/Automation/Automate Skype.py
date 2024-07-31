@@ -1,9 +1,8 @@
 from skpy import Skype
-import os.path
 
 login = Skype("Enter Skype Account Id", "Password")
 
-# Show all contact of skype which are connected with you
+# Show all contact of Skype which are connected with you
 contact = login.contacts
 for i in contact:
     print(i)
